@@ -11,7 +11,7 @@ function ping($ip, $port)
         fclose($check);
 
         $request_id = check_host($ip,$port);
-        accuracy(10);
+        accuracy(3);
         $realPing =  check_ping($request_id);
         if ($realPing > 0){
             return $militime;
