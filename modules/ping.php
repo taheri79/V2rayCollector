@@ -10,14 +10,14 @@ function ping($ip, $port)
     if ($check) {
         fclose($check);
 
-        $request_id = check_host($ip,$port);
-        accuracy(3);
-        $realPing =  check_ping($request_id);
-        if ($realPing > 0){
+//        $request_id = check_host($ip,$port);
+//        accuracy(3);
+//        $realPing =  check_ping($request_id);
+//        if ($realPing > 0){
             return $militime;
-        }else{
-            return "unavailable";
-        }
+//        }else{
+//            return "unavailable";
+//        }
 
     } else {
         return "unavailable";
