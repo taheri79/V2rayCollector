@@ -19,7 +19,7 @@ jobs:
           
       - name: Execute PHP script
         run: |
-#          php collect.php
+
           git config --global user.email "hosein.laletaheri@gmail.com"
           git config --global user.name "taheri79"
           git config credential.helper store
