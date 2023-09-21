@@ -99,296 +99,51 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "@V2rayNGn | RELAY🚩 | ilovepdf.com:8443 | 67.61ms | 0️⃣1️⃣",
-                "@V2rayNGn | RELAY🚩 | ilovepdf.com:8443 | 14.93ms | 0️⃣2️⃣",
-                "@free4allVPN | BY🇧🇾 | internet.life.com.by:443 | 839.75ms | 0️⃣1️⃣",
-                "@free4allVPN | RELAY🚩 | zula.ir:443 | 283.99ms | 0️⃣2️⃣",
-                "@free4allVPN | BY🇧🇾 | internet.life.com.by:443 | 691.77ms | 0️⃣3️⃣",
-                "@v2ray_outlineir | FI🇫🇮 | 95.216.232.168:33341 | 139.98ms | 0️⃣1️⃣",
-                "@v2ray_outlineir | RELAY🚩 | sls.shabijichang.com:80 | 47.25ms | 0️⃣3️⃣",
-                "@oneclickvpnkeys | RELAY🚩 | luxembourg.yj2022.gq:8880 | 354.93ms | 0️⃣1️⃣",
-                "@oneclickvpnkeys | IR🇮🇷 | sn30.nikatel.fun:8080 | 772.06ms | 0️⃣2️⃣",
-                "@oneclickvpnkeys | SG🇸🇬 | 202.79.174.157:55264 | 186.34ms | 0️⃣3️⃣",
-                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 270.61ms | 0️⃣1️⃣",
-                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 172.06ms | 0️⃣2️⃣",
-                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 165.36ms | 0️⃣3️⃣",
-                "@customv2ray | RELAY🚩 | sandp.blanku.me:443 | 56.37ms | 0️⃣1️⃣",
-                "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 711.36ms | 0️⃣1️⃣",
-                "@free_v2rayyy | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 268.7ms | 0️⃣1️⃣",
-                "@v2ray1_ng | BY🇧🇾 | internet.life.com.by:80 | 853.22ms | 0️⃣1️⃣",
-                "@v2ray1_ng | US🇺🇸 | de1vm.cdn-03.live:80 | 73.46ms | 0️⃣2️⃣",
-                "@vpn_tehran | US🇺🇸 | edeen.makeup:443 | 310.93ms | 0️⃣1️⃣",
-                "@ConfigsHUB | RELAY🚩 | odelia.autos:443 | 199.4ms | 0️⃣1️⃣",
-                "@proxystore11 | DE🇩🇪 | 23.158.56.89:22324 | 127.84ms | 0️⃣1️⃣",
-                "@Hope_Net | US🇺🇸 | nl.sharecentrepro.com:80 | 74.18ms | 0️⃣1️⃣",
-                "@Hope_Net | RELAY🚩 | nl2.sharecentrepro.com:80 | 103.2ms | 0️⃣2️⃣",
-                "@Hope_Net | US🇺🇸 | ca.ilovescp.com:80 | 64.71ms | 0️⃣3️⃣",
-                "@vmessiran | RELAY🚩 | a7.iraniancp.fun:8880 | 77.46ms | 0️⃣1️⃣"
+                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 201.21ms | 0️⃣1️⃣",
+                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 200.09ms | 0️⃣2️⃣",
+                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 203.15ms | 0️⃣3️⃣",
+                "@customv2ray | RELAY🚩 | sandp.blanku.me:443 | 189.91ms | 0️⃣1️⃣",
+                "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 602.62ms | 0️⃣1️⃣",
+                "@Proxy_PJ | US🇺🇸 | speedtest.net:443 | 85.47ms | 0️⃣1️⃣",
+                "@free_v2rayyy | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 202.86ms | 0️⃣1️⃣",
+                "@v2ray1_ng | BY🇧🇾 | internet.life.com.by:80 | 597.29ms | 0️⃣1️⃣",
+                "@v2ray1_ng | RELAY🚩 | de1vm.cdn-03.live:80 | 21.77ms | 0️⃣2️⃣",
+                "@ConfigsHUB | US🇺🇸 | www.75409854.xyz:443 | 122.59ms | 0️⃣1️⃣",
+                "@proxystore11 | DE🇩🇪 | 23.158.56.89:22324 | 91.32ms | 0️⃣1️⃣",
+                "@Hope_Net | US🇺🇸 | nl.sharecentrepro.com:80 | 38.94ms | 0️⃣1️⃣",
+                "@Hope_Net | RELAY🚩 | nl2.sharecentrepro.com:80 | 39.91ms | 0️⃣2️⃣",
+                "@Hope_Net | US🇺🇸 | ca.ilovescp.com:80 | 51.26ms | 0️⃣3️⃣",
+                "@vmessiran | US🇺🇸 | 158.101.7.8:80 | 65.19ms | 0️⃣1️⃣",
+                "@vmessiran | US🇺🇸 | a7.iraniancp.fun:8880 | 300.08ms | 0️⃣2️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "@V2rayNGn | RELAY🚩 | ilovepdf.com:8443 | 67.61ms | 0️⃣1️⃣",
-                "@V2rayNGn | RELAY🚩 | ilovepdf.com:8443 | 14.93ms | 0️⃣2️⃣",
-                "@free4allVPN | BY🇧🇾 | internet.life.com.by:443 | 839.75ms | 0️⃣1️⃣",
-                "@free4allVPN | RELAY🚩 | zula.ir:443 | 283.99ms | 0️⃣2️⃣",
-                "@free4allVPN | BY🇧🇾 | internet.life.com.by:443 | 691.77ms | 0️⃣3️⃣",
-                "@v2ray_outlineir | FI🇫🇮 | 95.216.232.168:33341 | 139.98ms | 0️⃣1️⃣",
-                "@v2ray_outlineir | RELAY🚩 | sls.shabijichang.com:80 | 47.25ms | 0️⃣3️⃣",
-                "@oneclickvpnkeys | RELAY🚩 | luxembourg.yj2022.gq:8880 | 354.93ms | 0️⃣1️⃣",
-                "@oneclickvpnkeys | IR🇮🇷 | sn30.nikatel.fun:8080 | 772.06ms | 0️⃣2️⃣",
-                "@oneclickvpnkeys | SG🇸🇬 | 202.79.174.157:55264 | 186.34ms | 0️⃣3️⃣",
-                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 270.61ms | 0️⃣1️⃣",
-                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 172.06ms | 0️⃣2️⃣",
-                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 165.36ms | 0️⃣3️⃣",
-                "@customv2ray | RELAY🚩 | sandp.blanku.me:443 | 56.37ms | 0️⃣1️⃣",
-                "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 711.36ms | 0️⃣1️⃣",
-                "@free_v2rayyy | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 268.7ms | 0️⃣1️⃣",
-                "@v2ray1_ng | BY🇧🇾 | internet.life.com.by:80 | 853.22ms | 0️⃣1️⃣",
-                "@v2ray1_ng | US🇺🇸 | de1vm.cdn-03.live:80 | 73.46ms | 0️⃣2️⃣",
-                "@vpn_tehran | US🇺🇸 | edeen.makeup:443 | 310.93ms | 0️⃣1️⃣",
-                "@ConfigsHUB | RELAY🚩 | odelia.autos:443 | 199.4ms | 0️⃣1️⃣",
-                "@proxystore11 | DE🇩🇪 | 23.158.56.89:22324 | 127.84ms | 0️⃣1️⃣",
-                "@Hope_Net | US🇺🇸 | nl.sharecentrepro.com:80 | 74.18ms | 0️⃣1️⃣",
-                "@Hope_Net | RELAY🚩 | nl2.sharecentrepro.com:80 | 103.2ms | 0️⃣2️⃣",
-                "@Hope_Net | US🇺🇸 | ca.ilovescp.com:80 | 64.71ms | 0️⃣3️⃣",
-                "@vmessiran | RELAY🚩 | a7.iraniancp.fun:8880 | 77.46ms | 0️⃣1️⃣"
+                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 201.21ms | 0️⃣1️⃣",
+                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 200.09ms | 0️⃣2️⃣",
+                "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 203.15ms | 0️⃣3️⃣",
+                "@customv2ray | RELAY🚩 | sandp.blanku.me:443 | 189.91ms | 0️⃣1️⃣",
+                "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 602.62ms | 0️⃣1️⃣",
+                "@Proxy_PJ | US🇺🇸 | speedtest.net:443 | 85.47ms | 0️⃣1️⃣",
+                "@free_v2rayyy | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 202.86ms | 0️⃣1️⃣",
+                "@v2ray1_ng | BY🇧🇾 | internet.life.com.by:80 | 597.29ms | 0️⃣1️⃣",
+                "@v2ray1_ng | RELAY🚩 | de1vm.cdn-03.live:80 | 21.77ms | 0️⃣2️⃣",
+                "@ConfigsHUB | US🇺🇸 | www.75409854.xyz:443 | 122.59ms | 0️⃣1️⃣",
+                "@proxystore11 | DE🇩🇪 | 23.158.56.89:22324 | 91.32ms | 0️⃣1️⃣",
+                "@Hope_Net | US🇺🇸 | nl.sharecentrepro.com:80 | 38.94ms | 0️⃣1️⃣",
+                "@Hope_Net | RELAY🚩 | nl2.sharecentrepro.com:80 | 39.91ms | 0️⃣2️⃣",
+                "@Hope_Net | US🇺🇸 | ca.ilovescp.com:80 | 51.26ms | 0️⃣3️⃣",
+                "@vmessiran | US🇺🇸 | 158.101.7.8:80 | 65.19ms | 0️⃣1️⃣",
+                "@vmessiran | US🇺🇸 | a7.iraniancp.fun:8880 | 300.08ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "@V2rayNGn | RELAY🚩 | ilovepdf.com:8443 | 67.61ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "s3.allaansell.online",
-            "server_port": 8443,
-            "uuid": "5eafa9c4-d9b6-4d24-92f9-76fb59707cfb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "@V2rayNGn | RELAY🚩 | ilovepdf.com:8443 | 14.93ms | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "s3.allaansell.online",
-            "server_port": 8443,
-            "uuid": "b29bc265-edac-4e3d-b9ea-52a9bc6c9c67",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "@free4allVPN | BY🇧🇾 | internet.life.com.by:443 | 839.75ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "sw-179.43.155.25.nip.io",
-            "server_port": 443,
-            "uuid": "47b43bb4-2768-431c-b704-edee85e2a48d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sw-179.43.155.25.nip.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "@free4allVPN | RELAY🚩 | zula.ir:443 | 283.99ms | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "49.13.23.221",
-            "server_port": 443,
-            "uuid": "254954c6-f115-4703-e196-41ba04a4a16b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "49.13.23.221",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "@free4allVPN | BY🇧🇾 | internet.life.com.by:443 | 691.77ms | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "sw-62.233.57.38.nip.io",
-            "server_port": 443,
-            "uuid": "c66d1c03-ef5e-4994-a7a4-d41855867f13",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sw-62.233.57.38.nip.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "@v2ray_outlineir | FI🇫🇮 | 95.216.232.168:33341 | 139.98ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "95.216.232.168",
-            "server_port": 33341,
-            "uuid": "fb4d0894-1b10-4e75-c498-bcf0eba0f101",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "@v2ray_outlineir | RELAY🚩 | sls.shabijichang.com:80 | 47.25ms | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "162.159.129.187",
-            "server_port": 80,
-            "uuid": "e49e181d-8375-49d9-b354-385b4b721233",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/",
-                "headers": {
-                    "Host": "162.159.129.187"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@oneclickvpnkeys | RELAY🚩 | luxembourg.yj2022.gq:8880 | 354.93ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "cdn.narutos.top",
-            "server_port": 8880,
-            "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/GdtYWlsLmNvbSJ9LCJjb3V",
-                "headers": {
-                    "Host": "cdn.narutos.top"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@oneclickvpnkeys | IR🇮🇷 | sn30.nikatel.fun:8080 | 772.06ms | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "185.143.233.120",
-            "server_port": 8080,
-            "uuid": "24ba1fe4-58e1-4e00-b97c-089e33038ee4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/",
-                "headers": {
-                    "Host": "185.143.233.120"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@oneclickvpnkeys | SG🇸🇬 | 202.79.174.157:55264 | 186.34ms | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "202.79.174.157",
-            "server_port": 55264,
-            "uuid": "121c9c89-7d11-4f49-9112-dc1e85363f6f",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 270.61ms | 0️⃣1️⃣",
+            "tag": "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 201.21ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "in1rfsblhhoh.azborn.ir",
             "server_port": 443,
@@ -422,7 +177,7 @@
             }
         },
         {
-            "tag": "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 172.06ms | 0️⃣2️⃣",
+            "tag": "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 200.09ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "in1rfsblhhoh.azborn.ir",
             "server_port": 443,
@@ -458,7 +213,7 @@
             }
         },
         {
-            "tag": "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 165.36ms | 0️⃣3️⃣",
+            "tag": "@azadi_az_inja_migzare | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 203.15ms | 0️⃣3️⃣",
             "type": "vmess",
             "server": "in1rfsblhhoh.azborn.ir",
             "server_port": 443,
@@ -492,7 +247,7 @@
             }
         },
         {
-            "tag": "@customv2ray | RELAY🚩 | sandp.blanku.me:443 | 56.37ms | 0️⃣1️⃣",
+            "tag": "@customv2ray | RELAY🚩 | sandp.blanku.me:443 | 189.91ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "104.20.75.10",
             "server_port": 443,
@@ -528,7 +283,7 @@
             }
         },
         {
-            "tag": "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 711.36ms | 0️⃣1️⃣",
+            "tag": "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 602.62ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "135.125.134.130",
             "server_port": 443,
@@ -555,7 +310,34 @@
             }
         },
         {
-            "tag": "@free_v2rayyy | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 268.7ms | 0️⃣1️⃣",
+            "tag": "@Proxy_PJ | US🇺🇸 | speedtest.net:443 | 85.47ms | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "2a01:4f8:c010:64bb::1",
+            "server_port": 443,
+            "uuid": "0b6fb42b-6388-414b-dc4a-0e24aa607196",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2a01:4f8:c010:64bb::1",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@free_v2rayyy | DE🇩🇪 | in1rfsblhhoh.azborn.ir:443 | 202.86ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "in1rfsblhhoh.azborn.ir",
             "server_port": 443,
@@ -582,7 +364,7 @@
             }
         },
         {
-            "tag": "@v2ray1_ng | BY🇧🇾 | internet.life.com.by:80 | 853.22ms | 0️⃣1️⃣",
+            "tag": "@v2ray1_ng | BY🇧🇾 | internet.life.com.by:80 | 597.29ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "168.119.60.238",
             "server_port": 80,
@@ -599,7 +381,7 @@
             }
         },
         {
-            "tag": "@v2ray1_ng | US🇺🇸 | de1vm.cdn-03.live:80 | 73.46ms | 0️⃣2️⃣",
+            "tag": "@v2ray1_ng | RELAY🚩 | de1vm.cdn-03.live:80 | 21.77ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "104.31.16.14",
             "server_port": 80,
@@ -625,13 +407,13 @@
             }
         },
         {
-            "tag": "@vpn_tehran | US🇺🇸 | edeen.makeup:443 | 310.93ms | 0️⃣1️⃣",
+            "tag": "@ConfigsHUB | US🇺🇸 | www.75409854.xyz:443 | 122.59ms | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "edeen.makeup",
+            "server": "67.21.90.5",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "28dd6c26-05a5-4bba-8a5d-052b70ac13b2",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -642,7 +424,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edeen.makeup",
+                "server_name": "www.75409854.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -652,52 +434,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/\/path\/1694429908748",
                 "headers": {
-                    "Host": "edeen.makeup"
+                    "Host": "67.21.90.5"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "@ConfigsHUB | RELAY🚩 | odelia.autos:443 | 199.4ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "odelia.autos",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "odelia.autos",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "odelia.autos"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@proxystore11 | DE🇩🇪 | 23.158.56.89:22324 | 127.84ms | 0️⃣1️⃣",
+            "tag": "@proxystore11 | DE🇩🇪 | 23.158.56.89:22324 | 91.32ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "23.158.56.89",
             "server_port": 22324,
@@ -714,7 +460,7 @@
             }
         },
         {
-            "tag": "@Hope_Net | US🇺🇸 | nl.sharecentrepro.com:80 | 74.18ms | 0️⃣1️⃣",
+            "tag": "@Hope_Net | US🇺🇸 | nl.sharecentrepro.com:80 | 38.94ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "cf-lt.sharecentre.online",
             "server_port": 80,
@@ -740,7 +486,7 @@
             }
         },
         {
-            "tag": "@Hope_Net | RELAY🚩 | nl2.sharecentrepro.com:80 | 103.2ms | 0️⃣2️⃣",
+            "tag": "@Hope_Net | RELAY🚩 | nl2.sharecentrepro.com:80 | 39.91ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "cf-lt.sharecentre.online",
             "server_port": 80,
@@ -766,7 +512,7 @@
             }
         },
         {
-            "tag": "@Hope_Net | US🇺🇸 | ca.ilovescp.com:80 | 64.71ms | 0️⃣3️⃣",
+            "tag": "@Hope_Net | US🇺🇸 | ca.ilovescp.com:80 | 51.26ms | 0️⃣3️⃣",
             "type": "vmess",
             "server": "cf-lt.sharecentre.online",
             "server_port": 80,
@@ -792,7 +538,33 @@
             }
         },
         {
-            "tag": "@vmessiran | RELAY🚩 | a7.iraniancp.fun:8880 | 77.46ms | 0️⃣1️⃣",
+            "tag": "@vmessiran | US🇺🇸 | 158.101.7.8:80 | 65.19ms | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "158.101.7.8",
+            "server_port": 80,
+            "uuid": "95b45c49-f5c0-4959-bb64-2b8fbc4a869c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/",
+                "headers": {
+                    "Host": "158.101.7.8"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@vmessiran | US🇺🇸 | a7.iraniancp.fun:8880 | 300.08ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "104.16.209.12",
             "server_port": 8880,
