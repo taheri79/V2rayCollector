@@ -104,31 +104,35 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "@PrivateVPNs | GB🇬🇧 | 3.9.81.192:22222 | 110.57ms | 0️⃣1️⃣",
-                "@PrivateVPNs | IE🇮🇪 | 54.75.22.115:22222 | 100.06ms | 0️⃣2️⃣",
-                "@PrivateVPNs | IE🇮🇪 | 52.51.118.52:22222 | 99.73ms | 0️⃣3️⃣",
-                "@DirectVPN | US🇺🇸 | 44.220.7.73:22222 | 30.47ms | 0️⃣1️⃣",
-                "@oneclickvpnkeys | US🇺🇸 | h.migmig.sbs:443 | 225.99ms | 0️⃣1️⃣",
-                "@oneclickvpnkeys | FR🇫🇷 | fra1.connecton.surf:443 | 295.28ms | 0️⃣2️⃣"
+                "@PrivateVPNs | GB🇬🇧 | 3.9.81.192:22222 | 78.49ms | 0️⃣1️⃣",
+                "@PrivateVPNs | IE🇮🇪 | 54.75.22.115:22222 | 67.57ms | 0️⃣2️⃣",
+                "@PrivateVPNs | IE🇮🇪 | 52.51.118.52:22222 | 67.77ms | 0️⃣3️⃣",
+                "@DirectVPN | US🇺🇸 | 44.220.7.73:22222 | 3.18ms | 0️⃣1️⃣",
+                "@DirectVPN | US🇺🇸 | 3.13.210.200:22222 | 11.65ms | 0️⃣2️⃣",
+                "@oneclickvpnkeys | US🇺🇸 | h.migmig.sbs:443 | 152.5ms | 0️⃣1️⃣",
+                "@oneclickvpnkeys | FR🇫🇷 | fra1.connecton.surf:443 | 340.2ms | 0️⃣2️⃣",
+                "@vmess_vless_v2rayng | IE🇮🇪 | 52.48.4.221:22222 | 68.36ms | 0️⃣1️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "@PrivateVPNs | GB🇬🇧 | 3.9.81.192:22222 | 110.57ms | 0️⃣1️⃣",
-                "@PrivateVPNs | IE🇮🇪 | 54.75.22.115:22222 | 100.06ms | 0️⃣2️⃣",
-                "@PrivateVPNs | IE🇮🇪 | 52.51.118.52:22222 | 99.73ms | 0️⃣3️⃣",
-                "@DirectVPN | US🇺🇸 | 44.220.7.73:22222 | 30.47ms | 0️⃣1️⃣",
-                "@oneclickvpnkeys | US🇺🇸 | h.migmig.sbs:443 | 225.99ms | 0️⃣1️⃣",
-                "@oneclickvpnkeys | FR🇫🇷 | fra1.connecton.surf:443 | 295.28ms | 0️⃣2️⃣"
+                "@PrivateVPNs | GB🇬🇧 | 3.9.81.192:22222 | 78.49ms | 0️⃣1️⃣",
+                "@PrivateVPNs | IE🇮🇪 | 54.75.22.115:22222 | 67.57ms | 0️⃣2️⃣",
+                "@PrivateVPNs | IE🇮🇪 | 52.51.118.52:22222 | 67.77ms | 0️⃣3️⃣",
+                "@DirectVPN | US🇺🇸 | 44.220.7.73:22222 | 3.18ms | 0️⃣1️⃣",
+                "@DirectVPN | US🇺🇸 | 3.13.210.200:22222 | 11.65ms | 0️⃣2️⃣",
+                "@oneclickvpnkeys | US🇺🇸 | h.migmig.sbs:443 | 152.5ms | 0️⃣1️⃣",
+                "@oneclickvpnkeys | FR🇫🇷 | fra1.connecton.surf:443 | 340.2ms | 0️⃣2️⃣",
+                "@vmess_vless_v2rayng | IE🇮🇪 | 52.48.4.221:22222 | 68.36ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "@PrivateVPNs | GB🇬🇧 | 3.9.81.192:22222 | 110.57ms | 0️⃣1️⃣",
+            "tag": "@PrivateVPNs | GB🇬🇧 | 3.9.81.192:22222 | 78.49ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "3.9.81.192",
             "server_port": 22222,
@@ -149,7 +153,7 @@
             }
         },
         {
-            "tag": "@PrivateVPNs | IE🇮🇪 | 54.75.22.115:22222 | 100.06ms | 0️⃣2️⃣",
+            "tag": "@PrivateVPNs | IE🇮🇪 | 54.75.22.115:22222 | 67.57ms | 0️⃣2️⃣",
             "type": "trojan",
             "server": "54.75.22.115",
             "server_port": 22222,
@@ -170,7 +174,7 @@
             }
         },
         {
-            "tag": "@PrivateVPNs | IE🇮🇪 | 52.51.118.52:22222 | 99.73ms | 0️⃣3️⃣",
+            "tag": "@PrivateVPNs | IE🇮🇪 | 52.51.118.52:22222 | 67.77ms | 0️⃣3️⃣",
             "type": "trojan",
             "server": "52.51.118.52",
             "server_port": 22222,
@@ -191,7 +195,7 @@
             }
         },
         {
-            "tag": "@DirectVPN | US🇺🇸 | 44.220.7.73:22222 | 30.47ms | 0️⃣1️⃣",
+            "tag": "@DirectVPN | US🇺🇸 | 44.220.7.73:22222 | 3.18ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "44.220.7.73",
             "server_port": 22222,
@@ -212,7 +216,28 @@
             }
         },
         {
-            "tag": "@oneclickvpnkeys | US🇺🇸 | h.migmig.sbs:443 | 225.99ms | 0️⃣1️⃣",
+            "tag": "@DirectVPN | US🇺🇸 | 3.13.210.200:22222 | 11.65ms | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "3.13.210.200",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@oneclickvpnkeys | US🇺🇸 | h.migmig.sbs:443 | 152.5ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "h.migmig.sbs",
             "server_port": 443,
@@ -240,7 +265,7 @@
             }
         },
         {
-            "tag": "@oneclickvpnkeys | FR🇫🇷 | fra1.connecton.surf:443 | 295.28ms | 0️⃣2️⃣",
+            "tag": "@oneclickvpnkeys | FR🇫🇷 | fra1.connecton.surf:443 | 340.2ms | 0️⃣2️⃣",
             "type": "trojan",
             "server": "fra1.connecton.surf",
             "server_port": 443,
@@ -253,6 +278,27 @@
             "tls": {
                 "enabled": true,
                 "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@vmess_vless_v2rayng | IE🇮🇪 | 52.48.4.221:22222 | 68.36ms | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "52.48.4.221",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
