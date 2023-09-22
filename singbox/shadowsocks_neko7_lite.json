@@ -99,31 +99,29 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "@free4allVPN | SG🇸🇬 | 52.220.160.254:443 | 231.87ms | 0️⃣1️⃣",
-                "@free4allVPN | IE🇮🇪 | 54.220.133.34:443 | 67.23ms | 0️⃣2️⃣",
-                "@OutlineVpnOfficial | JP🇯🇵 | www.outline.network.qoa75t01yqv1wprsjj5be4ibpj4s51izfw7hiztoqjjzb5r04cihrx2uatfb8ot.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 169.73ms | 0️⃣1️⃣",
-                "@OutlineVpnOfficial | SG🇸🇬 | www.outline.network.v09e1wildhd7r5g6ceg73h8trivtehowzfm7bmd8b06civwdiarshobcs3mqfu4.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 239.02ms | 0️⃣2️⃣",
-                "@bright_vpn | GB🇬🇧 | 212.102.53.198:443 | 74.95ms | 0️⃣1️⃣",
-                "@bright_vpn | FR🇫🇷 | 51.178.87.37:810 | 90.54ms | 0️⃣2️⃣"
+                "@free4allVPN | SG🇸🇬 | 52.220.160.254:443 | 203.13ms | 0️⃣1️⃣",
+                "@OutlineVpnOfficial | JP🇯🇵 | www.outline.network.qoa75t01yqv1wprsjj5be4ibpj4s51izfw7hiztoqjjzb5r04cihrx2uatfb8ot.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 188.68ms | 0️⃣1️⃣",
+                "@OutlineVpnOfficial | SG🇸🇬 | www.outline.network.v09e1wildhd7r5g6ceg73h8trivtehowzfm7bmd8b06civwdiarshobcs3mqfu4.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 250.78ms | 0️⃣2️⃣",
+                "@bright_vpn | GB🇬🇧 | 212.102.53.198:443 | 108.3ms | 0️⃣1️⃣",
+                "@bright_vpn | FR🇫🇷 | 51.178.87.37:810 | 134.98ms | 0️⃣2️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "@free4allVPN | SG🇸🇬 | 52.220.160.254:443 | 231.87ms | 0️⃣1️⃣",
-                "@free4allVPN | IE🇮🇪 | 54.220.133.34:443 | 67.23ms | 0️⃣2️⃣",
-                "@OutlineVpnOfficial | JP🇯🇵 | www.outline.network.qoa75t01yqv1wprsjj5be4ibpj4s51izfw7hiztoqjjzb5r04cihrx2uatfb8ot.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 169.73ms | 0️⃣1️⃣",
-                "@OutlineVpnOfficial | SG🇸🇬 | www.outline.network.v09e1wildhd7r5g6ceg73h8trivtehowzfm7bmd8b06civwdiarshobcs3mqfu4.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 239.02ms | 0️⃣2️⃣",
-                "@bright_vpn | GB🇬🇧 | 212.102.53.198:443 | 74.95ms | 0️⃣1️⃣",
-                "@bright_vpn | FR🇫🇷 | 51.178.87.37:810 | 90.54ms | 0️⃣2️⃣"
+                "@free4allVPN | SG🇸🇬 | 52.220.160.254:443 | 203.13ms | 0️⃣1️⃣",
+                "@OutlineVpnOfficial | JP🇯🇵 | www.outline.network.qoa75t01yqv1wprsjj5be4ibpj4s51izfw7hiztoqjjzb5r04cihrx2uatfb8ot.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 188.68ms | 0️⃣1️⃣",
+                "@OutlineVpnOfficial | SG🇸🇬 | www.outline.network.v09e1wildhd7r5g6ceg73h8trivtehowzfm7bmd8b06civwdiarshobcs3mqfu4.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 250.78ms | 0️⃣2️⃣",
+                "@bright_vpn | GB🇬🇧 | 212.102.53.198:443 | 108.3ms | 0️⃣1️⃣",
+                "@bright_vpn | FR🇫🇷 | 51.178.87.37:810 | 134.98ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "@free4allVPN | SG🇸🇬 | 52.220.160.254:443 | 231.87ms | 0️⃣1️⃣",
+            "tag": "@free4allVPN | SG🇸🇬 | 52.220.160.254:443 | 203.13ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "52.220.160.254",
             "server_port": 443,
@@ -133,17 +131,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "@free4allVPN | IE🇮🇪 | 54.220.133.34:443 | 67.23ms | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "54.220.133.34",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5Ib9l2M6FC7SayRNmutDuF",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "@OutlineVpnOfficial | JP🇯🇵 | www.outline.network.qoa75t01yqv1wprsjj5be4ibpj4s51izfw7hiztoqjjzb5r04cihrx2uatfb8ot.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 169.73ms | 0️⃣1️⃣",
+            "tag": "@OutlineVpnOfficial | JP🇯🇵 | www.outline.network.qoa75t01yqv1wprsjj5be4ibpj4s51izfw7hiztoqjjzb5r04cihrx2uatfb8ot.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 188.68ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.qoa75t01yqv1wprsjj5be4ibpj4s51izfw7hiztoqjjzb5r04cihrx2uatfb8ot.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 8080,
@@ -153,7 +141,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "@OutlineVpnOfficial | SG🇸🇬 | www.outline.network.v09e1wildhd7r5g6ceg73h8trivtehowzfm7bmd8b06civwdiarshobcs3mqfu4.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 239.02ms | 0️⃣2️⃣",
+            "tag": "@OutlineVpnOfficial | SG🇸🇬 | www.outline.network.v09e1wildhd7r5g6ceg73h8trivtehowzfm7bmd8b06civwdiarshobcs3mqfu4.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8080 | 250.78ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.v09e1wildhd7r5g6ceg73h8trivtehowzfm7bmd8b06civwdiarshobcs3mqfu4.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 8080,
@@ -163,7 +151,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "@bright_vpn | GB🇬🇧 | 212.102.53.198:443 | 74.95ms | 0️⃣1️⃣",
+            "tag": "@bright_vpn | GB🇬🇧 | 212.102.53.198:443 | 108.3ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "212.102.53.198",
             "server_port": 443,
@@ -173,7 +161,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "@bright_vpn | FR🇫🇷 | 51.178.87.37:810 | 90.54ms | 0️⃣2️⃣",
+            "tag": "@bright_vpn | FR🇫🇷 | 51.178.87.37:810 | 134.98ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "51.178.87.37",
             "server_port": 810,
