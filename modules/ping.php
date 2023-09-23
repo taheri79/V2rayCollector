@@ -23,4 +23,3 @@ function ping($ip, $port)
         return "unavailable";
     }
 }
-echo ping('dalfak.com',80);

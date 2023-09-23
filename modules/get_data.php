@@ -254,16 +254,13 @@ function generate_name($channel, $flag, $ping, $is_reality, $number)
         case true:
             $name =
                 "REALITY | " .
-                "@" .
-                $channel .
-                " | " .
                 $flag .
                 " | " .
                 $ping .
                 "ms | " . numberToEmoji($number);
             break;
         case false:
-            $name = "@" . $channel . " | " . $flag . " | " . $ping . "ms | " . numberToEmoji($number);
+            $name = $flag . " | " . $ping . "ms | " . numberToEmoji($number);
             break;
     }
     return $name;
@@ -350,8 +347,7 @@ function get_config($channel, $type)
 
                     @$ping_data = ping($ip, $port);
                     if ($ping_data !== "unavailable") {
-                        $flag = get_flag($ip) . " | " . $ip . ":" . $port;
-                        $ping_data = $ping_data;
+                        $flag = get_flag($ip);
                         
                         $name_key = $name_array[$type];
                         $the_config[$name_key] = generate_name(
@@ -432,8 +428,7 @@ function process_subscription($input, $channel)
 
             @$ping_data = ping($ip, $port);
             if ($ping_data !== "unavailable") {
-                $flag = get_flag($ip) . " | " . $ip . ":" . $port;
-                $ping_data = $ping_data;
+                $flag = get_flag($ip);
 
                 $name_key = $name_array[$type];
                 $the_config[$name_key] = generate_name(
