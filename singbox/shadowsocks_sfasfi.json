@@ -103,17 +103,17 @@
             "outbounds": [
                 "URL-TEST",
                 "SG🇸🇬",
-                "IE🇮🇪",
-                "AU🇦🇺"
+                "AU🇦🇺",
+                "FR🇫🇷"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 266.82374874751ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 42.397340138753ms | 0️⃣2️⃣",
-                "AU🇦🇺 | 383.49262873332ms | 0️⃣1️⃣"
+                "SG🇸🇬 | 167.8385535876ms | 0️⃣1️⃣",
+                "AU🇦🇺 | 362.18841870626ms | 0️⃣1️⃣",
+                "FR🇫🇷 | 66.138068834941ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -123,17 +123,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 266.82374874751ms | 0️⃣1️⃣"
-            ],
-            "url": "http:\/\/www.gstatic.com\/generate_204",
-            "interval": "60s",
-            "tolerance": 0
-        },
-        {
-            "tag": "IE🇮🇪",
-            "type": "urltest",
-            "outbounds": [
-                "IE🇮🇪 | 42.397340138753ms | 0️⃣2️⃣"
+                "SG🇸🇬 | 167.8385535876ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -143,14 +133,24 @@
             "tag": "AU🇦🇺",
             "type": "urltest",
             "outbounds": [
-                "AU🇦🇺 | 383.49262873332ms | 0️⃣1️⃣"
+                "AU🇦🇺 | 362.18841870626ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "SG🇸🇬 | 266.82374874751ms | 0️⃣1️⃣",
+            "tag": "FR🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "FR🇫🇷 | 66.138068834941ms | 0️⃣1️⃣"
+            ],
+            "url": "http:\/\/www.gstatic.com\/generate_204",
+            "interval": "60s",
+            "tolerance": 0
+        },
+        {
+            "tag": "SG🇸🇬 | 167.8385535876ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "52.220.160.254",
             "server_port": 443,
@@ -160,22 +160,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "IE🇮🇪 | 42.397340138753ms | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "54.220.133.34",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5Ib9l2M6FC7SayRNmutDuF",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "AU🇦🇺 | 383.49262873332ms | 0️⃣1️⃣",
+            "tag": "AU🇦🇺 | 362.18841870626ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1880.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 51348,
             "method": "chacha20-ietf-poly1305",
             "password": "TijFgHjOtM7B4cP90",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "FR🇫🇷 | 66.138068834941ms | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "51.178.87.37",
+            "server_port": 810,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
             "plugin": "",
             "plugin_opts": ""
         },
