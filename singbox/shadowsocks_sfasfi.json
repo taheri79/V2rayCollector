@@ -103,9 +103,7 @@
             "outbounds": [
                 "URL-TEST",
                 "SG🇸🇬",
-                "IE🇮🇪",
                 "AU🇦🇺",
-                "CA🇨🇦",
                 "FR🇫🇷"
             ]
         },
@@ -113,11 +111,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 182.32760826747ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 36.579608917236ms | 0️⃣2️⃣",
-                "AU🇦🇺 | 109.15338993073ms | 0️⃣1️⃣",
-                "CA🇨🇦 | 109.12070671717ms | 0️⃣2️⃣",
-                "FR🇫🇷 | 67.181587219238ms | 0️⃣1️⃣"
+                "SG🇸🇬 | 267.9078578949ms | 0️⃣1️⃣",
+                "AU🇦🇺 | 254.87067302068ms | 0️⃣1️⃣",
+                "FR🇫🇷 | 65.642793973287ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -127,17 +123,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 182.32760826747ms | 0️⃣1️⃣"
-            ],
-            "url": "http:\/\/www.gstatic.com\/generate_204",
-            "interval": "60s",
-            "tolerance": 0
-        },
-        {
-            "tag": "IE🇮🇪",
-            "type": "urltest",
-            "outbounds": [
-                "IE🇮🇪 | 36.579608917236ms | 0️⃣2️⃣"
+                "SG🇸🇬 | 267.9078578949ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -147,17 +133,7 @@
             "tag": "AU🇦🇺",
             "type": "urltest",
             "outbounds": [
-                "AU🇦🇺 | 109.15338993073ms | 0️⃣1️⃣"
-            ],
-            "url": "http:\/\/www.gstatic.com\/generate_204",
-            "interval": "60s",
-            "tolerance": 0
-        },
-        {
-            "tag": "CA🇨🇦",
-            "type": "urltest",
-            "outbounds": [
-                "CA🇨🇦 | 109.12070671717ms | 0️⃣2️⃣"
+                "AU🇦🇺 | 254.87067302068ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -167,14 +143,14 @@
             "tag": "FR🇫🇷",
             "type": "urltest",
             "outbounds": [
-                "FR🇫🇷 | 67.181587219238ms | 0️⃣1️⃣"
+                "FR🇫🇷 | 65.642793973287ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "SG🇸🇬 | 182.32760826747ms | 0️⃣1️⃣",
+            "tag": "SG🇸🇬 | 267.9078578949ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "52.220.160.254",
             "server_port": 443,
@@ -184,17 +160,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "IE🇮🇪 | 36.579608917236ms | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "54.220.133.34",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5Ib9l2M6FC7SayRNmutDuF",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "AU🇦🇺 | 109.15338993073ms | 0️⃣1️⃣",
+            "tag": "AU🇦🇺 | 254.87067302068ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1880.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 51348,
@@ -204,17 +170,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "CA🇨🇦 | 109.12070671717ms | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "www.outline.network.ak1881.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 51348,
-            "method": "chacha20-ietf-poly1305",
-            "password": "AwObceGhTnGcDacA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "FR🇫🇷 | 67.181587219238ms | 0️⃣1️⃣",
+            "tag": "FR🇫🇷 | 65.642793973287ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.178.87.37",
             "server_port": 810,
