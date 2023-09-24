@@ -108,7 +108,7 @@
                 "US🇺🇸",
                 "SE🇸🇪",
                 "RU🇷🇺",
-                "MU🇲🇺",
+                "CN🇨🇳",
                 "IR🇮🇷"
             ]
         },
@@ -116,28 +116,28 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "BY🇧🇾 | 127.55626440048ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 125.78711907069ms | 0️⃣3️⃣",
-                "BY🇧🇾 | 126.31597121557ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 126.30748748779ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 126.05381011963ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 77.232718467712ms | 0️⃣2️⃣",
-                "RELAY🚩 | 102.56550709407ms | 0️⃣2️⃣",
-                "RELAY🚩 | 101.06164216995ms | 0️⃣1️⃣",
-                "RELAY🚩 | 64.024031162262ms | 0️⃣2️⃣",
-                "US🇺🇸 | 25.931179523468ms | 0️⃣1️⃣",
-                "US🇺🇸 | 23.905575275421ms | 0️⃣2️⃣",
-                "US🇺🇸 | 100.76814889908ms | 0️⃣1️⃣",
-                "US🇺🇸 | 100.10216633479ms | 0️⃣1️⃣",
-                "US🇺🇸 | 102.2639075915ms | 0️⃣2️⃣",
-                "US🇺🇸 | 100.57679812113ms | 0️⃣1️⃣",
-                "US🇺🇸 | 104.44488128026ms | 0️⃣1️⃣",
-                "US🇺🇸 | 160.27557849884ms | 0️⃣1️⃣",
-                "SE🇸🇪 | 91.018378734589ms | 0️⃣2️⃣",
-                "SE🇸🇪 | 93.662997086843ms | 0️⃣3️⃣",
-                "RU🇷🇺 | 112.23518848419ms | 0️⃣1️⃣",
-                "MU🇲🇺 | 103.51234674454ms | 0️⃣1️⃣",
-                "IR🇮🇷 | 0.47717491785685ms | 0️⃣1️⃣"
+                "BY🇧🇾 | 77.653268973033ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 77.160557111104ms | 0️⃣3️⃣",
+                "BY🇧🇾 | 77.13133096695ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 77.30625073115ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 77.606658140818ms | 0️⃣2️⃣",
+                "BY🇧🇾 | 78.953961531321ms | 0️⃣2️⃣",
+                "RELAY🚩 | 63.825686772664ms | 0️⃣2️⃣",
+                "RELAY🚩 | 63.072403271993ms | 0️⃣1️⃣",
+                "RELAY🚩 | 60.738901297251ms | 0️⃣1️⃣",
+                "RELAY🚩 | 27.600089708964ms | 0️⃣1️⃣",
+                "RELAY🚩 | 64.058681329091ms | 0️⃣2️⃣",
+                "RELAY🚩 | 25.244494279226ms | 0️⃣1️⃣",
+                "US🇺🇸 | 25.297661622365ms | 0️⃣1️⃣",
+                "US🇺🇸 | 24.650990962982ms | 0️⃣2️⃣",
+                "US🇺🇸 | 64.115643501282ms | 0️⃣1️⃣",
+                "US🇺🇸 | 26.591002941132ms | 0️⃣2️⃣",
+                "US🇺🇸 | 160.55524349213ms | 0️⃣1️⃣",
+                "US🇺🇸 | 60.514628887177ms | 0️⃣2️⃣",
+                "SE🇸🇪 | 76.210995515187ms | 0️⃣2️⃣",
+                "RU🇷🇺 | 31.492511431376ms | 0️⃣1️⃣",
+                "CN🇨🇳 | 114.00773127874ms | 0️⃣1️⃣",
+                "IR🇮🇷 | 0.48973162968953ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -147,12 +147,12 @@
             "tag": "BY🇧🇾",
             "type": "urltest",
             "outbounds": [
-                "BY🇧🇾 | 127.55626440048ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 125.78711907069ms | 0️⃣3️⃣",
-                "BY🇧🇾 | 126.31597121557ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 126.30748748779ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 126.05381011963ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 77.232718467712ms | 0️⃣2️⃣"
+                "BY🇧🇾 | 77.653268973033ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 77.160557111104ms | 0️⃣3️⃣",
+                "BY🇧🇾 | 77.13133096695ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 77.30625073115ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 77.606658140818ms | 0️⃣2️⃣",
+                "BY🇧🇾 | 78.953961531321ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -162,9 +162,12 @@
             "tag": "",
             "type": "urltest",
             "outbounds": [
-                "RELAY🚩 | 102.56550709407ms | 0️⃣2️⃣",
-                "RELAY🚩 | 101.06164216995ms | 0️⃣1️⃣",
-                "RELAY🚩 | 64.024031162262ms | 0️⃣2️⃣"
+                "RELAY🚩 | 63.825686772664ms | 0️⃣2️⃣",
+                "RELAY🚩 | 63.072403271993ms | 0️⃣1️⃣",
+                "RELAY🚩 | 60.738901297251ms | 0️⃣1️⃣",
+                "RELAY🚩 | 27.600089708964ms | 0️⃣1️⃣",
+                "RELAY🚩 | 64.058681329091ms | 0️⃣2️⃣",
+                "RELAY🚩 | 25.244494279226ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -174,14 +177,12 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 25.931179523468ms | 0️⃣1️⃣",
-                "US🇺🇸 | 23.905575275421ms | 0️⃣2️⃣",
-                "US🇺🇸 | 100.76814889908ms | 0️⃣1️⃣",
-                "US🇺🇸 | 100.10216633479ms | 0️⃣1️⃣",
-                "US🇺🇸 | 102.2639075915ms | 0️⃣2️⃣",
-                "US🇺🇸 | 100.57679812113ms | 0️⃣1️⃣",
-                "US🇺🇸 | 104.44488128026ms | 0️⃣1️⃣",
-                "US🇺🇸 | 160.27557849884ms | 0️⃣1️⃣"
+                "US🇺🇸 | 25.297661622365ms | 0️⃣1️⃣",
+                "US🇺🇸 | 24.650990962982ms | 0️⃣2️⃣",
+                "US🇺🇸 | 64.115643501282ms | 0️⃣1️⃣",
+                "US🇺🇸 | 26.591002941132ms | 0️⃣2️⃣",
+                "US🇺🇸 | 160.55524349213ms | 0️⃣1️⃣",
+                "US🇺🇸 | 60.514628887177ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -191,8 +192,7 @@
             "tag": "SE🇸🇪",
             "type": "urltest",
             "outbounds": [
-                "SE🇸🇪 | 91.018378734589ms | 0️⃣2️⃣",
-                "SE🇸🇪 | 93.662997086843ms | 0️⃣3️⃣"
+                "SE🇸🇪 | 76.210995515187ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -202,17 +202,17 @@
             "tag": "RU🇷🇺",
             "type": "urltest",
             "outbounds": [
-                "RU🇷🇺 | 112.23518848419ms | 0️⃣1️⃣"
+                "RU🇷🇺 | 31.492511431376ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "MU🇲🇺",
+            "tag": "CN🇨🇳",
             "type": "urltest",
             "outbounds": [
-                "MU🇲🇺 | 103.51234674454ms | 0️⃣1️⃣"
+                "CN🇨🇳 | 114.00773127874ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -222,14 +222,14 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "IR🇮🇷 | 0.47717491785685ms | 0️⃣1️⃣"
+                "IR🇮🇷 | 0.48973162968953ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "BY🇧🇾 | 127.55626440048ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 77.653268973033ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "sw-179.43.155.25.nip.io",
             "server_port": 443,
@@ -256,7 +256,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 125.78711907069ms | 0️⃣3️⃣",
+            "tag": "BY🇧🇾 | 77.160557111104ms | 0️⃣3️⃣",
             "type": "vmess",
             "server": "sw-62.233.57.38.nip.io",
             "server_port": 443,
@@ -283,7 +283,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 126.31597121557ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 77.13133096695ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "142.132.176.143",
             "server_port": 443,
@@ -310,7 +310,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 126.30748748779ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 77.30625073115ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "5.161.128.225",
             "server_port": 443,
@@ -337,7 +337,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 126.05381011963ms | 0️⃣2️⃣",
+            "tag": "BY🇧🇾 | 77.606658140818ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "5.161.138.232",
             "server_port": 443,
@@ -364,7 +364,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 77.232718467712ms | 0️⃣2️⃣",
+            "tag": "BY🇧🇾 | 78.953961531321ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "v2line.telegram.channel.1269.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 443,
@@ -391,7 +391,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 102.56550709407ms | 0️⃣2️⃣",
+            "tag": "RELAY🚩 | 63.825686772664ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "49.13.23.221",
             "server_port": 443,
@@ -418,7 +418,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 101.06164216995ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 63.072403271993ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "edeen.makeup",
             "server_port": 443,
@@ -454,11 +454,45 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 64.024031162262ms | 0️⃣2️⃣",
+            "tag": "RELAY🚩 | 60.738901297251ms | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "104.16.209.12",
-            "server_port": 8880,
-            "uuid": "0c664f44-9f69-454f-841a-4616715df26f",
+            "server": "mci-maznet.ddns.net",
+            "server_port": 443,
+            "uuid": "6390fb56-1916-481b-8309-dad446169b9d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tel.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "RELAY🚩 | 27.600089708964ms | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "fd.shabijichang.com",
+            "server_port": 80,
+            "uuid": "073360d9-72cb-4ba5-9a40-8ac6cd918356",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -473,14 +507,66 @@
                 "type": "ws",
                 "path": "\/\/",
                 "headers": {
-                    "Host": "104.16.209.12"
+                    "Host": "fd.shabijichang.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "US🇺🇸 | 25.931179523468ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 64.058681329091ms | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "104.17.88.252",
+            "server_port": 2082,
+            "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/phosphorylative.aurorainiceland.com\/nimvws",
+                "headers": {
+                    "Host": "104.17.88.252"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RELAY🚩 | 25.244494279226ms | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "cf-lt.sharecentre.online",
+            "server_port": 80,
+            "uuid": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/shirker",
+                "headers": {
+                    "Host": "cf-lt.sharecentre.online"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "US🇺🇸 | 25.297661622365ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "65.70.45.15",
             "server_port": 443,
@@ -507,7 +593,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 23.905575275421ms | 0️⃣2️⃣",
+            "tag": "US🇺🇸 | 24.650990962982ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "35.48.12.78",
             "server_port": 443,
@@ -534,7 +620,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 100.76814889908ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 64.115643501282ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "join8.outline-vpn.cloud",
             "server_port": 443,
@@ -570,7 +656,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 100.10216633479ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 26.591002941132ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -596,85 +682,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 102.2639075915ms | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "fd.shabijichang.com",
-            "server_port": 80,
-            "uuid": "073360d9-72cb-4ba5-9a40-8ac6cd918356",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/",
-                "headers": {
-                    "Host": "fd.shabijichang.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "US🇺🇸 | 100.57679812113ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "104.17.88.252",
-            "server_port": 2082,
-            "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/phosphorylative.aurorainiceland.com\/nimvws",
-                "headers": {
-                    "Host": "104.17.88.252"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "US🇺🇸 | 104.44488128026ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "cf-lt.sharecentre.online",
-            "server_port": 80,
-            "uuid": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/shirker",
-                "headers": {
-                    "Host": "cf-lt.sharecentre.online"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "US🇺🇸 | 160.27557849884ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 160.55524349213ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "158.101.7.8",
             "server_port": 80,
@@ -700,11 +708,11 @@
             }
         },
         {
-            "tag": "SE🇸🇪 | 91.018378734589ms | 0️⃣2️⃣",
+            "tag": "US🇺🇸 | 60.514628887177ms | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "192.200.160.17",
-            "server_port": 2053,
-            "uuid": "7af9498b-ec69-4801-9b12-a8c6af8ca0b7",
+            "server": "104.16.209.12",
+            "server_port": 8880,
+            "uuid": "0c664f44-9f69-454f-841a-4616715df26f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -715,26 +723,18 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "a.boredhot.cloud",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/\/",
+                "headers": {
+                    "Host": "104.16.209.12"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "SE🇸🇪 | 93.662997086843ms | 0️⃣3️⃣",
+            "tag": "SE🇸🇪 | 76.210995515187ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "104.17.101.35",
             "server_port": 2053,
@@ -768,7 +768,7 @@
             }
         },
         {
-            "tag": "RU🇷🇺 | 112.23518848419ms | 0️⃣1️⃣",
+            "tag": "RU🇷🇺 | 31.492511431376ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "forward2.maryam1300.top",
             "server_port": 8443,
@@ -792,13 +792,13 @@
             }
         },
         {
-            "tag": "MU🇲🇺 | 103.51234674454ms | 0️⃣1️⃣",
+            "tag": "CN🇨🇳 | 114.00773127874ms | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "45.199.138.148",
-            "server_port": 47005,
-            "uuid": "f9fa3a9c-f7d5-414f-88e6-6970585d9949",
+            "server": "tw1549.131jsq.one",
+            "server_port": 32002,
+            "uuid": "47d31242-26c7-42ab-8647-8c36e32cadcb",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -809,7 +809,7 @@
             }
         },
         {
-            "tag": "IR🇮🇷 | 0.47717491785685ms | 0️⃣1️⃣",
+            "tag": "IR🇮🇷 | 0.48973162968953ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "v2line.telegram.channel.1268.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 80,
