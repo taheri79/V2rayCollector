@@ -99,25 +99,25 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "SG🇸🇬 | 165.8490896225ms | 0️⃣1️⃣",
-                "AU🇦🇺 | 354.46510712306ms | 0️⃣1️⃣",
-                "FR🇫🇷 | 30.017177263896ms | 0️⃣1️⃣"
+                "SG🇸🇬 | 264.17330900828ms | 0️⃣1️⃣",
+                "FI🇫🇮 | 64.756254355113ms | 0️⃣1️⃣",
+                "FR🇫🇷 | 28.63868077596ms | 0️⃣1️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 165.8490896225ms | 0️⃣1️⃣",
-                "AU🇦🇺 | 354.46510712306ms | 0️⃣1️⃣",
-                "FR🇫🇷 | 30.017177263896ms | 0️⃣1️⃣"
+                "SG🇸🇬 | 264.17330900828ms | 0️⃣1️⃣",
+                "FI🇫🇮 | 64.756254355113ms | 0️⃣1️⃣",
+                "FR🇫🇷 | 28.63868077596ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "SG🇸🇬 | 165.8490896225ms | 0️⃣1️⃣",
+            "tag": "SG🇸🇬 | 264.17330900828ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "52.220.160.254",
             "server_port": 443,
@@ -127,17 +127,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "AU🇦🇺 | 354.46510712306ms | 0️⃣1️⃣",
+            "tag": "FI🇫🇮 | 64.756254355113ms | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "www.outline.network.ak1880.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server": "www.outline.network.ak1882.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 51348,
             "method": "chacha20-ietf-poly1305",
-            "password": "TijFgHjOtM7B4cP90",
+            "password": "yimkuHGFb6Dwpcsid2",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "FR🇫🇷 | 30.017177263896ms | 0️⃣1️⃣",
+            "tag": "FR🇫🇷 | 28.63868077596ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.178.87.37",
             "server_port": 810,
