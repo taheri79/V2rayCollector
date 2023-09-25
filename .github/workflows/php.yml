@@ -23,6 +23,7 @@ jobs:
           git config --global user.email "hosein.laletaheri@gmail.com"
           git config --global user.name "taheri79"
           git config credential.helper store
+          git config pull.rebase false
           git add -A
           git commit -m "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
           git pull
