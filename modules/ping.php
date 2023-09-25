@@ -14,7 +14,7 @@ function ping($ip, $port)
         accuracy(3);
         $realPing =  check_ping($request_id);
         if ($realPing > 0){
-            return $realPing/3;
+            return round($realPing/3);
         }else{
             return "unavailable";
         }
