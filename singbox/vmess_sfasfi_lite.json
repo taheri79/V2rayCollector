@@ -102,61 +102,59 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "BY🇧🇾 | 74ms | 0️⃣1️⃣",
-                "RELAY🚩 | 95ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 74ms | 0️⃣3️⃣",
-                "FI🇫🇮 | 73ms | 0️⃣1️⃣",
-                "US🇺🇸 | 93ms | 0️⃣2️⃣",
-                "RELAY🚩 | 55ms | 0️⃣1️⃣",
-                "RELAY🚩 | 55ms | 0️⃣2️⃣",
-                "US🇺🇸 | 250ms | 0️⃣3️⃣",
-                "DE🇩🇪 | 102ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 122ms | 0️⃣1️⃣",
+                "US🇺🇸 | 94ms | 0️⃣2️⃣",
+                "BY🇧🇾 | 122ms | 0️⃣3️⃣",
+                "US🇺🇸 | 28ms | 0️⃣1️⃣",
+                "RELAY🚩 | 59ms | 0️⃣2️⃣",
+                "RELAY🚩 | 61ms | 0️⃣1️⃣",
+                "US🇺🇸 | 57ms | 0️⃣2️⃣",
+                "US🇺🇸 | 251ms | 0️⃣3️⃣",
                 "BY🇧🇾 | 74ms | 0️⃣1️⃣",
                 "IR🇮🇷 | 89ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 121ms | 0️⃣1️⃣",
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "FI🇫🇮 | 72ms | 0️⃣1️⃣",
-                "RELAY🚩 | 58ms | 0️⃣1️⃣",
-                "RELAY🚩 | 58ms | 0️⃣2️⃣",
-                "RELAY🚩 | 57ms | 0️⃣1️⃣",
-                "AU🇦🇺 | 110ms | 0️⃣2️⃣",
-                "US🇺🇸 | 64ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 83ms | 0️⃣1️⃣",
-                "US🇺🇸 | 57ms | 0️⃣1️⃣"
+                "US🇺🇸 | 95ms | 0️⃣1️⃣",
+                "RELAY🚩 | 59ms | 0️⃣1️⃣",
+                "RELAY🚩 | 59ms | 0️⃣2️⃣",
+                "RELAY🚩 | 59ms | 0️⃣3️⃣",
+                "US🇺🇸 | 92ms | 0️⃣1️⃣",
+                "AU🇦🇺 | 109ms | 0️⃣2️⃣",
+                "US🇺🇸 | 54ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 84ms | 0️⃣1️⃣",
+                "US🇺🇸 | 151ms | 0️⃣1️⃣",
+                "RELAY🚩 | 92ms | 0️⃣2️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "BY🇧🇾 | 74ms | 0️⃣1️⃣",
-                "RELAY🚩 | 95ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 74ms | 0️⃣3️⃣",
-                "FI🇫🇮 | 73ms | 0️⃣1️⃣",
-                "US🇺🇸 | 93ms | 0️⃣2️⃣",
-                "RELAY🚩 | 55ms | 0️⃣1️⃣",
-                "RELAY🚩 | 55ms | 0️⃣2️⃣",
-                "US🇺🇸 | 250ms | 0️⃣3️⃣",
-                "DE🇩🇪 | 102ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 122ms | 0️⃣1️⃣",
+                "US🇺🇸 | 94ms | 0️⃣2️⃣",
+                "BY🇧🇾 | 122ms | 0️⃣3️⃣",
+                "US🇺🇸 | 28ms | 0️⃣1️⃣",
+                "RELAY🚩 | 59ms | 0️⃣2️⃣",
+                "RELAY🚩 | 61ms | 0️⃣1️⃣",
+                "US🇺🇸 | 57ms | 0️⃣2️⃣",
+                "US🇺🇸 | 251ms | 0️⃣3️⃣",
                 "BY🇧🇾 | 74ms | 0️⃣1️⃣",
                 "IR🇮🇷 | 89ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 121ms | 0️⃣1️⃣",
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "FI🇫🇮 | 72ms | 0️⃣1️⃣",
-                "RELAY🚩 | 58ms | 0️⃣1️⃣",
-                "RELAY🚩 | 58ms | 0️⃣2️⃣",
-                "RELAY🚩 | 57ms | 0️⃣1️⃣",
-                "AU🇦🇺 | 110ms | 0️⃣2️⃣",
-                "US🇺🇸 | 64ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 83ms | 0️⃣1️⃣",
-                "US🇺🇸 | 57ms | 0️⃣1️⃣"
+                "US🇺🇸 | 95ms | 0️⃣1️⃣",
+                "RELAY🚩 | 59ms | 0️⃣1️⃣",
+                "RELAY🚩 | 59ms | 0️⃣2️⃣",
+                "RELAY🚩 | 59ms | 0️⃣3️⃣",
+                "US🇺🇸 | 92ms | 0️⃣1️⃣",
+                "AU🇦🇺 | 109ms | 0️⃣2️⃣",
+                "US🇺🇸 | 54ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 84ms | 0️⃣1️⃣",
+                "US🇺🇸 | 151ms | 0️⃣1️⃣",
+                "RELAY🚩 | 92ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "BY🇧🇾 | 74ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 122ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "sw-179.43.155.25.nip.io",
             "server_port": 443,
@@ -183,7 +181,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 95ms | 0️⃣2️⃣",
+            "tag": "US🇺🇸 | 94ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "49.13.23.221",
             "server_port": 443,
@@ -210,7 +208,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 74ms | 0️⃣3️⃣",
+            "tag": "BY🇧🇾 | 122ms | 0️⃣3️⃣",
             "type": "vmess",
             "server": "sw-62.233.57.38.nip.io",
             "server_port": 443,
@@ -237,24 +235,7 @@
             }
         },
         {
-            "tag": "FI🇫🇮 | 73ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "95.216.232.168",
-            "server_port": 32802,
-            "uuid": "c35d9ba6-5297-49f1-831d-883c1ad3cbb0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "US🇺🇸 | 93ms | 0️⃣2️⃣",
+            "tag": "US🇺🇸 | 28ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "[0000:0000:0000:0000:0000:ffff:33ff:9aff]",
             "server_port": 80,
@@ -271,7 +252,33 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 55ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 59ms | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "fd.shabijichang.com",
+            "server_port": 80,
+            "uuid": "d05d6f62-e2bb-4bf7-b6ff-b0252e76ecfa",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/",
+                "headers": {
+                    "Host": "fd.shabijichang.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RELAY🚩 | 61ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "172.67.229.25",
             "server_port": 2086,
@@ -297,7 +304,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 55ms | 0️⃣2️⃣",
+            "tag": "US🇺🇸 | 57ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "198.41.217.5",
             "server_port": 2087,
@@ -333,28 +340,11 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 250ms | 0️⃣3️⃣",
+            "tag": "US🇺🇸 | 251ms | 0️⃣3️⃣",
             "type": "vmess",
             "server": "154.17.8.16",
             "server_port": 36113,
             "uuid": "ba57f911-3b94-4dbe-c735-5927197ce17b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "DE🇩🇪 | 102ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "23.158.56.89",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -411,34 +401,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 121ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "23.88.38.42",
-            "server_port": 443,
-            "uuid": "090e504f-cf32-42d0-c7fc-b99fc714a503",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "23.88.38.42",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "RELAY🚩 | 56ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 95ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "edeen.makeup",
             "server_port": 443,
@@ -474,33 +437,7 @@
             }
         },
         {
-            "tag": "FI🇫🇮 | 72ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "4d868558-0166-4083-baf0-720daf24f6e6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/vmess",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "RELAY🚩 | 58ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 59ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -526,7 +463,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 58ms | 0️⃣2️⃣",
+            "tag": "RELAY🚩 | 59ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -552,7 +489,33 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 57ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 59ms | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "fd.shabijichang.com",
+            "server_port": 80,
+            "uuid": "4732350b-14a1-421e-985a-155a78e9ae80",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/",
+                "headers": {
+                    "Host": "fd.shabijichang.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "US🇺🇸 | 92ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "104.17.88.252",
             "server_port": 2082,
@@ -578,7 +541,7 @@
             }
         },
         {
-            "tag": "AU🇦🇺 | 110ms | 0️⃣2️⃣",
+            "tag": "AU🇦🇺 | 109ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "hk.yaney04.eu.org",
             "server_port": 8080,
@@ -604,7 +567,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 64ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 54ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "cf-lt.sharecentre.online",
             "server_port": 80,
@@ -630,7 +593,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 83ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 84ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "v2line.telegram.channel.1269.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 443,
@@ -657,7 +620,33 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 57ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 151ms | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "158.101.7.8",
+            "server_port": 80,
+            "uuid": "95b45c49-f5c0-4959-bb64-2b8fbc4a869c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/",
+                "headers": {
+                    "Host": "158.101.7.8"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RELAY🚩 | 92ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "104.16.209.12",
             "server_port": 8880,
