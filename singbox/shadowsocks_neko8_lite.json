@@ -105,9 +105,10 @@
             "outbounds": [
                 "URL-TEST",
                 "SG🇸🇬 | 263ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 112ms | 0️⃣2️⃣",
-                "NL🇳🇱 | 73ms | 0️⃣1️⃣",
-                "SG🇸🇬 | 239ms | 0️⃣2️⃣"
+                "IE🇮🇪 | 111ms | 0️⃣2️⃣",
+                "NL🇳🇱 | 72ms | 0️⃣1️⃣",
+                "PL🇵🇱 | 116ms | 0️⃣2️⃣",
+                "SG🇸🇬 | 225ms | 0️⃣3️⃣"
             ]
         },
         {
@@ -115,9 +116,10 @@
             "type": "urltest",
             "outbounds": [
                 "SG🇸🇬 | 263ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 112ms | 0️⃣2️⃣",
-                "NL🇳🇱 | 73ms | 0️⃣1️⃣",
-                "SG🇸🇬 | 239ms | 0️⃣2️⃣"
+                "IE🇮🇪 | 111ms | 0️⃣2️⃣",
+                "NL🇳🇱 | 72ms | 0️⃣1️⃣",
+                "PL🇵🇱 | 116ms | 0️⃣2️⃣",
+                "SG🇸🇬 | 225ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -134,7 +136,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "IE🇮🇪 | 112ms | 0️⃣2️⃣",
+            "tag": "IE🇮🇪 | 111ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "54.220.133.34",
             "server_port": 443,
@@ -144,7 +146,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "NL🇳🇱 | 73ms | 0️⃣1️⃣",
+            "tag": "NL🇳🇱 | 72ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1884.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 51348,
@@ -154,7 +156,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "SG🇸🇬 | 239ms | 0️⃣2️⃣",
+            "tag": "PL🇵🇱 | 116ms | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "www.outline.network.ak1885.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "K9KmtDf5Hn7S1a4Pbxk",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "SG🇸🇬 | 225ms | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1886.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 8388,
