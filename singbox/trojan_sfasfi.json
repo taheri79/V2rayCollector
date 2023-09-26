@@ -102,37 +102,25 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "FR🇫🇷",
                 "GB🇬🇧",
+                "SE🇸🇪",
                 "IE🇮🇪",
-                "US🇺🇸"
+                "DE🇩🇪",
+                "FR🇫🇷"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "FR🇫🇷 | 103ms | 0️⃣1️⃣",
-                "FR🇫🇷 | 100ms | 0️⃣1️⃣",
-                "FR🇫🇷 | 103ms | 0️⃣2️⃣",
-                "GB🇬🇧 | 106ms | 0️⃣2️⃣",
-                "GB🇬🇧 | 105ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 110ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 117ms | 0️⃣2️⃣",
-                "IE🇮🇪 | 114ms | 0️⃣3️⃣",
-                "US🇺🇸 | 217ms | 0️⃣3️⃣"
-            ],
-            "url": "http:\/\/www.gstatic.com\/generate_204",
-            "interval": "60s",
-            "tolerance": 0
-        },
-        {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "FR🇫🇷 | 103ms | 0️⃣1️⃣",
-                "FR🇫🇷 | 100ms | 0️⃣1️⃣",
-                "FR🇫🇷 | 103ms | 0️⃣2️⃣"
+                "GB🇬🇧 | 106ms | 0️⃣1️⃣",
+                "GB🇬🇧 | 104ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 108ms | 0️⃣1️⃣",
+                "SE🇸🇪 | 114ms | 0️⃣3️⃣",
+                "SE🇸🇪 | 98ms | 0️⃣1️⃣",
+                "IE🇮🇪 | 115ms | 0️⃣1️⃣",
+                "DE🇩🇪 | 64ms | 0️⃣2️⃣",
+                "FR🇫🇷 | 103ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -142,9 +130,20 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "GB🇬🇧 | 106ms | 0️⃣2️⃣",
-                "GB🇬🇧 | 105ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 110ms | 0️⃣1️⃣"
+                "GB🇬🇧 | 106ms | 0️⃣1️⃣",
+                "GB🇬🇧 | 104ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 108ms | 0️⃣1️⃣"
+            ],
+            "url": "http:\/\/www.gstatic.com\/generate_204",
+            "interval": "60s",
+            "tolerance": 0
+        },
+        {
+            "tag": "SE🇸🇪",
+            "type": "urltest",
+            "outbounds": [
+                "SE🇸🇪 | 114ms | 0️⃣3️⃣",
+                "SE🇸🇪 | 98ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -154,88 +153,34 @@
             "tag": "IE🇮🇪",
             "type": "urltest",
             "outbounds": [
-                "IE🇮🇪 | 117ms | 0️⃣2️⃣",
-                "IE🇮🇪 | 114ms | 0️⃣3️⃣"
+                "IE🇮🇪 | 115ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "US🇺🇸",
+            "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 217ms | 0️⃣3️⃣"
+                "DE🇩🇪 | 64ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "FR🇫🇷 | 103ms | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "13.38.167.124",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "FR🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "FR🇫🇷 | 103ms | 0️⃣1️⃣"
+            ],
+            "url": "http:\/\/www.gstatic.com\/generate_204",
+            "interval": "60s",
+            "tolerance": 0
         },
         {
-            "tag": "FR🇫🇷 | 100ms | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "13.36.184.10",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "FR🇫🇷 | 103ms | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "51.158.63.14",
-            "server_port": 443,
-            "password": "cc491f13e9",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fra1.connecton.surf",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "GB🇬🇧 | 106ms | 0️⃣2️⃣",
+            "tag": "GB🇬🇧 | 106ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "3.11.142.116",
             "server_port": 22222,
@@ -256,11 +201,11 @@
             }
         },
         {
-            "tag": "GB🇬🇧 | 105ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 104ms | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "18.169.234.170",
+            "server": "18.170.181.127",
             "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -277,7 +222,7 @@
             }
         },
         {
-            "tag": "GB🇬🇧 | 110ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 108ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "198.244.252.93",
             "server_port": 443,
@@ -298,11 +243,11 @@
             }
         },
         {
-            "tag": "IE🇮🇪 | 117ms | 0️⃣2️⃣",
+            "tag": "SE🇸🇪 | 114ms | 0️⃣3️⃣",
             "type": "trojan",
-            "server": "34.241.64.185",
+            "server": "16.171.106.95",
             "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -319,7 +264,28 @@
             }
         },
         {
-            "tag": "IE🇮🇪 | 114ms | 0️⃣3️⃣",
+            "tag": "SE🇸🇪 | 98ms | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "13.51.84.106",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "IE🇮🇪 | 115ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "3.254.31.243",
             "server_port": 22222,
@@ -340,9 +306,9 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 217ms | 0️⃣3️⃣",
+            "tag": "DE🇩🇪 | 64ms | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "3.229.114.188",
+            "server": "3.79.195.237",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -353,6 +319,27 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "FR🇫🇷 | 103ms | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "51.158.63.14",
+            "server_port": 443,
+            "password": "cc491f13e9",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fra1.connecton.surf",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
