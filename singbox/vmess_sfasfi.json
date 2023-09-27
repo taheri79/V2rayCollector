@@ -106,7 +106,6 @@
                 "KR🇰🇷",
                 "VN🇻🇳",
                 "FR🇫🇷",
-                "GB🇬🇧",
                 "BY🇧🇾",
                 "IR🇮🇷",
                 "AU🇦🇺"
@@ -116,25 +115,22 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 94ms | 0️⃣1️⃣",
-                "US🇺🇸 | 93ms | 0️⃣1️⃣",
-                "US🇺🇸 | 56ms | 0️⃣1️⃣",
-                "US🇺🇸 | 93ms | 0️⃣1️⃣",
-                "US🇺🇸 | 248ms | 0️⃣1️⃣",
+                "US🇺🇸 | 92ms | 0️⃣1️⃣",
+                "US🇺🇸 | 48ms | 0️⃣1️⃣",
+                "US🇺🇸 | 55ms | 0️⃣1️⃣",
+                "US🇺🇸 | 92ms | 0️⃣1️⃣",
+                "US🇺🇸 | 249ms | 0️⃣1️⃣",
                 "KR🇰🇷 | 109ms | 0️⃣2️⃣",
-                "VN🇻🇳 | 334ms | 0️⃣3️⃣",
+                "VN🇻🇳 | 335ms | 0️⃣3️⃣",
                 "FR🇫🇷 | 95ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 34ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 84ms | 0️⃣1️⃣",
                 "BY🇧🇾 | 123ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 122ms | 0️⃣1️⃣",
                 "IR🇮🇷 | 90ms | 0️⃣2️⃣",
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "RELAY🚩 | 56ms | 0️⃣2️⃣",
-                "RELAY🚩 | 93ms | 0️⃣3️⃣",
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "RELAY🚩 | 57ms | 0️⃣2️⃣",
-                "AU🇦🇺 | 111ms | 0️⃣2️⃣"
+                "RELAY🚩 | 58ms | 0️⃣2️⃣",
+                "RELAY🚩 | 93ms | 0️⃣1️⃣",
+                "RELAY🚩 | 91ms | 0️⃣1️⃣",
+                "RELAY🚩 | 58ms | 0️⃣2️⃣",
+                "AU🇦🇺 | 214ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -144,11 +140,11 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 94ms | 0️⃣1️⃣",
-                "US🇺🇸 | 93ms | 0️⃣1️⃣",
-                "US🇺🇸 | 56ms | 0️⃣1️⃣",
-                "US🇺🇸 | 93ms | 0️⃣1️⃣",
-                "US🇺🇸 | 248ms | 0️⃣1️⃣"
+                "US🇺🇸 | 92ms | 0️⃣1️⃣",
+                "US🇺🇸 | 48ms | 0️⃣1️⃣",
+                "US🇺🇸 | 55ms | 0️⃣1️⃣",
+                "US🇺🇸 | 92ms | 0️⃣1️⃣",
+                "US🇺🇸 | 249ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -168,7 +164,7 @@
             "tag": "VN🇻🇳",
             "type": "urltest",
             "outbounds": [
-                "VN🇻🇳 | 334ms | 0️⃣3️⃣"
+                "VN🇻🇳 | 335ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -185,21 +181,11 @@
             "tolerance": 0
         },
         {
-            "tag": "GB🇬🇧",
-            "type": "urltest",
-            "outbounds": [
-                "GB🇬🇧 | 34ms | 0️⃣1️⃣"
-            ],
-            "url": "http:\/\/www.gstatic.com\/generate_204",
-            "interval": "60s",
-            "tolerance": 0
-        },
-        {
             "tag": "BY🇧🇾",
             "type": "urltest",
             "outbounds": [
-                "BY🇧🇾 | 84ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 123ms | 0️⃣1️⃣"
+                "BY🇧🇾 | 123ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 122ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -219,12 +205,10 @@
             "tag": "",
             "type": "urltest",
             "outbounds": [
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "RELAY🚩 | 56ms | 0️⃣2️⃣",
-                "RELAY🚩 | 93ms | 0️⃣3️⃣",
-                "RELAY🚩 | 56ms | 0️⃣1️⃣",
-                "RELAY🚩 | 57ms | 0️⃣2️⃣"
+                "RELAY🚩 | 58ms | 0️⃣2️⃣",
+                "RELAY🚩 | 93ms | 0️⃣1️⃣",
+                "RELAY🚩 | 91ms | 0️⃣1️⃣",
+                "RELAY🚩 | 58ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -234,14 +218,14 @@
             "tag": "AU🇦🇺",
             "type": "urltest",
             "outbounds": [
-                "AU🇦🇺 | 111ms | 0️⃣2️⃣"
+                "AU🇦🇺 | 214ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "US🇺🇸 | 94ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 92ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "104.18.212.12",
             "server_port": 443,
@@ -277,7 +261,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 93ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 48ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "[0000:0000:0000:0000:0000:ffff:33ff:9aff]",
             "server_port": 80,
@@ -294,7 +278,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 56ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 55ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "edeen.makeup",
             "server_port": 443,
@@ -330,11 +314,11 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 93ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 92ms | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "104.17.88.252",
-            "server_port": 2082,
-            "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+            "server": "fd.shabijichang.com",
+            "server_port": 80,
+            "uuid": "073360d9-72cb-4ba5-9a40-8ac6cd918356",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -347,16 +331,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/phosphorylative.aurorainiceland.com\/nimvws",
+                "path": "\/\/",
                 "headers": {
-                    "Host": "104.17.88.252"
+                    "Host": "fd.shabijichang.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "US🇺🇸 | 248ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 249ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "158.101.7.8",
             "server_port": 80,
@@ -418,7 +402,7 @@
             }
         },
         {
-            "tag": "VN🇻🇳 | 334ms | 0️⃣3️⃣",
+            "tag": "VN🇻🇳 | 335ms | 0️⃣3️⃣",
             "type": "vmess",
             "server": "103.239.67.11",
             "server_port": 443,
@@ -490,24 +474,7 @@
             }
         },
         {
-            "tag": "GB🇬🇧 | 34ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "139.162.217.99",
-            "server_port": 5000,
-            "uuid": "e6d4afd0-a9e4-4f0f-970b-67ffd02d3c90",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "BY🇧🇾 | 84ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 123ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "142.132.176.143",
             "server_port": 443,
@@ -534,7 +501,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 123ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 122ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "23.88.38.42",
             "server_port": 443,
@@ -578,95 +545,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 56ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "188.114.97.1",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "odelia.autos",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "188.114.97.1"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "RELAY🚩 | 56ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "fd.shabijichang.com",
-            "server_port": 80,
-            "uuid": "073360d9-72cb-4ba5-9a40-8ac6cd918356",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/",
-                "headers": {
-                    "Host": "fd.shabijichang.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "RELAY🚩 | 56ms | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "fd.shabijichang.com",
-            "server_port": 80,
-            "uuid": "073360d9-72cb-4ba5-9a40-8ac6cd918356",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/\/",
-                "headers": {
-                    "Host": "fd.shabijichang.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "RELAY🚩 | 93ms | 0️⃣3️⃣",
+            "tag": "RELAY🚩 | 58ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -692,7 +571,33 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 56ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 93ms | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "104.17.88.252",
+            "server_port": 2082,
+            "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/phosphorylative.aurorainiceland.com\/nimvws",
+                "headers": {
+                    "Host": "104.17.88.252"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RELAY🚩 | 91ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "cf-lt.sharecentre.online",
             "server_port": 80,
@@ -718,7 +623,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 57ms | 0️⃣2️⃣",
+            "tag": "RELAY🚩 | 58ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "104.16.209.12",
             "server_port": 8880,
@@ -744,7 +649,7 @@
             }
         },
         {
-            "tag": "AU🇦🇺 | 111ms | 0️⃣2️⃣",
+            "tag": "AU🇦🇺 | 214ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "hk.yaney04.eu.org",
             "server_port": 8080,
