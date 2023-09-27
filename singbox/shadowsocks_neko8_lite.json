@@ -104,25 +104,27 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "US🇺🇸 | 121ms | 0️⃣1️⃣",
-                "SG🇸🇬 | 289ms | 0️⃣2️⃣",
-                "SG🇸🇬 | 319ms | 0️⃣1️⃣"
+                "US🇺🇸 | 127ms | 0️⃣1️⃣",
+                "SG🇸🇬 | 269ms | 0️⃣2️⃣",
+                "TH🇹🇭 | 225ms | 0️⃣1️⃣",
+                "US🇺🇸 | 146ms | 0️⃣2️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 121ms | 0️⃣1️⃣",
-                "SG🇸🇬 | 289ms | 0️⃣2️⃣",
-                "SG🇸🇬 | 319ms | 0️⃣1️⃣"
+                "US🇺🇸 | 127ms | 0️⃣1️⃣",
+                "SG🇸🇬 | 269ms | 0️⃣2️⃣",
+                "TH🇹🇭 | 225ms | 0️⃣1️⃣",
+                "US🇺🇸 | 146ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "US🇺🇸 | 121ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 127ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "205.134.180.143",
             "server_port": 443,
@@ -132,7 +134,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "SG🇸🇬 | 289ms | 0️⃣2️⃣",
+            "tag": "SG🇸🇬 | 269ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "54.179.254.66",
             "server_port": 443,
@@ -142,12 +144,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "SG🇸🇬 | 319ms | 0️⃣1️⃣",
+            "tag": "TH🇹🇭 | 225ms | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "www.outline.network.ak1886.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 8388,
+            "server": "www.outline.network.ak1888.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 51348,
             "method": "chacha20-ietf-poly1305",
-            "password": "Yzc2N",
+            "password": "tishSySgdhfGGhn",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "US🇺🇸 | 146ms | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "www.outline.network.ak1889.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5cp9Z3iWnJZ2",
             "plugin": "",
             "plugin_opts": ""
         },
