@@ -109,8 +109,8 @@
             "type": "urltest",
             "outbounds": [
                 "US🇺🇸 | 207ms | 0️⃣1️⃣",
-                "SG🇸🇬 | 365ms | 0️⃣1️⃣",
-                "TH🇹🇭 | 326ms | 0️⃣2️⃣"
+                "SG🇸🇬 | 357ms | 0️⃣1️⃣",
+                "TH🇹🇭 | 328ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -130,7 +130,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 365ms | 0️⃣1️⃣"
+                "SG🇸🇬 | 357ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -140,7 +140,7 @@
             "tag": "TH🇹🇭",
             "type": "urltest",
             "outbounds": [
-                "TH🇹🇭 | 326ms | 0️⃣2️⃣"
+                "TH🇹🇭 | 328ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -157,7 +157,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "SG🇸🇬 | 365ms | 0️⃣1️⃣",
+            "tag": "SG🇸🇬 | 357ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1886.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 8388,
@@ -167,7 +167,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "TH🇹🇭 | 326ms | 0️⃣2️⃣",
+            "tag": "TH🇹🇭 | 328ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1888.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 51348,

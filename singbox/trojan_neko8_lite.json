@@ -104,14 +104,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "GB🇬🇧 | 104ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 114ms | 0️⃣2️⃣",
-                "IE🇮🇪 | 115ms | 0️⃣3️⃣",
-                "SE🇸🇪 | 94ms | 0️⃣1️⃣",
-                "DE🇩🇪 | 95ms | 0️⃣2️⃣",
-                "DE🇩🇪 | 93ms | 0️⃣3️⃣",
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣",
+                "IE🇮🇪 | 75ms | 0️⃣2️⃣",
+                "IE🇮🇪 | 114ms | 0️⃣3️⃣",
+                "DE🇩🇪 | 93ms | 0️⃣1️⃣",
                 "FR🇫🇷 | 103ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 118ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 106ms | 0️⃣2️⃣",
                 "GB🇬🇧 | 106ms | 0️⃣1️⃣"
             ]
         },
@@ -119,14 +117,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "GB🇬🇧 | 104ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 114ms | 0️⃣2️⃣",
-                "IE🇮🇪 | 115ms | 0️⃣3️⃣",
-                "SE🇸🇪 | 94ms | 0️⃣1️⃣",
-                "DE🇩🇪 | 95ms | 0️⃣2️⃣",
-                "DE🇩🇪 | 93ms | 0️⃣3️⃣",
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣",
+                "IE🇮🇪 | 75ms | 0️⃣2️⃣",
+                "IE🇮🇪 | 114ms | 0️⃣3️⃣",
+                "DE🇩🇪 | 93ms | 0️⃣1️⃣",
                 "FR🇫🇷 | 103ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 118ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 106ms | 0️⃣2️⃣",
                 "GB🇬🇧 | 106ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
@@ -134,7 +130,7 @@
             "tolerance": 0
         },
         {
-            "tag": "GB🇬🇧 | 104ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 103ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "18.132.161.127",
             "server_port": 22222,
@@ -155,7 +151,7 @@
             }
         },
         {
-            "tag": "IE🇮🇪 | 114ms | 0️⃣2️⃣",
+            "tag": "IE🇮🇪 | 75ms | 0️⃣2️⃣",
             "type": "trojan",
             "server": "18.200.101.171",
             "server_port": 22222,
@@ -176,7 +172,7 @@
             }
         },
         {
-            "tag": "IE🇮🇪 | 115ms | 0️⃣3️⃣",
+            "tag": "IE🇮🇪 | 114ms | 0️⃣3️⃣",
             "type": "trojan",
             "server": "18.203.6.148",
             "server_port": 22222,
@@ -197,49 +193,7 @@
             }
         },
         {
-            "tag": "SE🇸🇪 | 94ms | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "51.20.29.144",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "DE🇩🇪 | 95ms | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "52.58.57.121",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "DE🇩🇪 | 93ms | 0️⃣3️⃣",
+            "tag": "DE🇩🇪 | 93ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "3.64.236.146",
             "server_port": 22222,
@@ -281,7 +235,7 @@
             }
         },
         {
-            "tag": "GB🇬🇧 | 118ms | 0️⃣2️⃣",
+            "tag": "GB🇬🇧 | 106ms | 0️⃣2️⃣",
             "type": "trojan",
             "server": "18.132.93.88",
             "server_port": 22222,
