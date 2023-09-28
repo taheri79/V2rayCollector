@@ -106,6 +106,7 @@
                 "CA🇨🇦",
                 "IE🇮🇪",
                 "GB🇬🇧",
+                "JP🇯🇵",
                 "US🇺🇸",
                 "UA🇺🇦"
             ]
@@ -114,15 +115,16 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 261ms | 0️⃣1️⃣",
-                "CA🇨🇦 | 218ms | 0️⃣2️⃣",
-                "CA🇨🇦 | 212ms | 0️⃣2️⃣",
-                "IE🇮🇪 | 105ms | 0️⃣3️⃣",
-                "GB🇬🇧 | 107ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 104ms | 0️⃣1️⃣",
-                "US🇺🇸 | 213ms | 0️⃣1️⃣",
-                "US🇺🇸 | 88ms | 0️⃣3️⃣",
-                "UA🇺🇦 | 92ms | 0️⃣2️⃣"
+                "SG🇸🇬 | 260ms | 0️⃣1️⃣",
+                "CA🇨🇦 | 217ms | 0️⃣2️⃣",
+                "CA🇨🇦 | 214ms | 0️⃣2️⃣",
+                "IE🇮🇪 | 106ms | 0️⃣3️⃣",
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣",
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣",
+                "JP🇯🇵 | 282ms | 0️⃣3️⃣",
+                "US🇺🇸 | 147ms | 0️⃣1️⃣",
+                "US🇺🇸 | 87ms | 0️⃣3️⃣",
+                "UA🇺🇦 | 93ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -132,7 +134,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 261ms | 0️⃣1️⃣"
+                "SG🇸🇬 | 260ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -142,8 +144,8 @@
             "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
-                "CA🇨🇦 | 218ms | 0️⃣2️⃣",
-                "CA🇨🇦 | 212ms | 0️⃣2️⃣"
+                "CA🇨🇦 | 217ms | 0️⃣2️⃣",
+                "CA🇨🇦 | 214ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -153,7 +155,7 @@
             "tag": "IE🇮🇪",
             "type": "urltest",
             "outbounds": [
-                "IE🇮🇪 | 105ms | 0️⃣3️⃣"
+                "IE🇮🇪 | 106ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -163,8 +165,18 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "GB🇬🇧 | 107ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 104ms | 0️⃣1️⃣"
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣",
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣"
+            ],
+            "url": "http:\/\/www.gstatic.com\/generate_204",
+            "interval": "60s",
+            "tolerance": 0
+        },
+        {
+            "tag": "JP🇯🇵",
+            "type": "urltest",
+            "outbounds": [
+                "JP🇯🇵 | 282ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -174,8 +186,8 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 213ms | 0️⃣1️⃣",
-                "US🇺🇸 | 88ms | 0️⃣3️⃣"
+                "US🇺🇸 | 147ms | 0️⃣1️⃣",
+                "US🇺🇸 | 87ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -185,14 +197,14 @@
             "tag": "UA🇺🇦",
             "type": "urltest",
             "outbounds": [
-                "UA🇺🇦 | 92ms | 0️⃣2️⃣"
+                "UA🇺🇦 | 93ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "SG🇸🇬 | 261ms | 0️⃣1️⃣",
+            "tag": "SG🇸🇬 | 260ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "54.179.254.66",
             "server_port": 443,
@@ -202,7 +214,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "CA🇨🇦 | 218ms | 0️⃣2️⃣",
+            "tag": "CA🇨🇦 | 217ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "192.18.150.179",
             "server_port": 443,
@@ -212,7 +224,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "CA🇨🇦 | 212ms | 0️⃣2️⃣",
+            "tag": "CA🇨🇦 | 214ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "143.244.43.216",
             "server_port": 110,
@@ -222,7 +234,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "IE🇮🇪 | 105ms | 0️⃣3️⃣",
+            "tag": "IE🇮🇪 | 106ms | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "54.220.133.34",
             "server_port": 443,
@@ -232,7 +244,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "GB🇬🇧 | 107ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 103ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.89.8.47",
             "server_port": 443,
@@ -242,7 +254,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "GB🇬🇧 | 104ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 103ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.132.31.29",
             "server_port": 20048,
@@ -252,7 +264,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "US🇺🇸 | 213ms | 0️⃣1️⃣",
+            "tag": "JP🇯🇵 | 282ms | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "84.17.34.108",
+            "server_port": 110,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "US🇺🇸 | 147ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1889.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 443,
@@ -262,7 +284,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "US🇺🇸 | 88ms | 0️⃣3️⃣",
+            "tag": "US🇺🇸 | 87ms | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1891.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 6379,
@@ -272,7 +294,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "UA🇺🇦 | 92ms | 0️⃣2️⃣",
+            "tag": "UA🇺🇦 | 93ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1890.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 51348,
