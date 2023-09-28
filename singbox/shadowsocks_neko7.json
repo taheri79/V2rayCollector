@@ -108,10 +108,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 209ms | 0️⃣1️⃣",
-                "US🇺🇸 | 150ms | 0️⃣1️⃣",
-                "SG🇸🇬 | 268ms | 0️⃣2️⃣",
-                "GB🇬🇧 | 69ms | 0️⃣1️⃣"
+                "US🇺🇸 | 213ms | 0️⃣1️⃣",
+                "US🇺🇸 | 217ms | 0️⃣1️⃣",
+                "SG🇸🇬 | 274ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 102ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -121,8 +121,8 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 209ms | 0️⃣1️⃣",
-                "US🇺🇸 | 150ms | 0️⃣1️⃣"
+                "US🇺🇸 | 213ms | 0️⃣1️⃣",
+                "US🇺🇸 | 217ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -132,7 +132,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 268ms | 0️⃣2️⃣"
+                "SG🇸🇬 | 274ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -142,14 +142,14 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "GB🇬🇧 | 69ms | 0️⃣1️⃣"
+                "GB🇬🇧 | 102ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "US🇺🇸 | 209ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 213ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "205.134.180.143",
             "server_port": 443,
@@ -159,7 +159,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "US🇺🇸 | 150ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 217ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1889.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 443,
@@ -169,7 +169,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "SG🇸🇬 | 268ms | 0️⃣2️⃣",
+            "tag": "SG🇸🇬 | 274ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "54.179.254.66",
             "server_port": 443,
@@ -179,7 +179,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "GB🇬🇧 | 69ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 102ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.132.31.29",
             "server_port": 20048,
