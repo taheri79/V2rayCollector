@@ -114,12 +114,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "DE🇩🇪 | 71ms | 0️⃣1️⃣",
-                "DE🇩🇪 | 92ms | 0️⃣2️⃣",
-                "FR🇫🇷 | 106ms | 0️⃣2️⃣",
-                "GB🇬🇧 | 66ms | 0️⃣3️⃣",
-                "GB🇬🇧 | 106ms | 0️⃣1️⃣",
-                "SE🇸🇪 | 87ms | 0️⃣1️⃣"
+                "DE🇩🇪 | 90ms | 0️⃣1️⃣",
+                "DE🇩🇪 | 91ms | 0️⃣2️⃣",
+                "FR🇫🇷 | 104ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 70ms | 0️⃣3️⃣",
+                "SE🇸🇪 | 100ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -129,8 +128,8 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "DE🇩🇪 | 71ms | 0️⃣1️⃣",
-                "DE🇩🇪 | 92ms | 0️⃣2️⃣"
+                "DE🇩🇪 | 90ms | 0️⃣1️⃣",
+                "DE🇩🇪 | 91ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -140,7 +139,7 @@
             "tag": "FR🇫🇷",
             "type": "urltest",
             "outbounds": [
-                "FR🇫🇷 | 106ms | 0️⃣2️⃣"
+                "FR🇫🇷 | 104ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -150,8 +149,7 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "GB🇬🇧 | 66ms | 0️⃣3️⃣",
-                "GB🇬🇧 | 106ms | 0️⃣1️⃣"
+                "GB🇬🇧 | 70ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -161,14 +159,14 @@
             "tag": "SE🇸🇪",
             "type": "urltest",
             "outbounds": [
-                "SE🇸🇪 | 87ms | 0️⃣1️⃣"
+                "SE🇸🇪 | 100ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "DE🇩🇪 | 71ms | 0️⃣1️⃣",
+            "tag": "DE🇩🇪 | 90ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "35.158.24.130",
             "server_port": 22222,
@@ -189,7 +187,7 @@
             }
         },
         {
-            "tag": "DE🇩🇪 | 92ms | 0️⃣2️⃣",
+            "tag": "DE🇩🇪 | 91ms | 0️⃣2️⃣",
             "type": "trojan",
             "server": "3.70.139.219",
             "server_port": 22222,
@@ -210,7 +208,7 @@
             }
         },
         {
-            "tag": "FR🇫🇷 | 106ms | 0️⃣2️⃣",
+            "tag": "FR🇫🇷 | 104ms | 0️⃣2️⃣",
             "type": "trojan",
             "server": "13.38.156.254",
             "server_port": 22222,
@@ -231,7 +229,7 @@
             }
         },
         {
-            "tag": "GB🇬🇧 | 66ms | 0️⃣3️⃣",
+            "tag": "GB🇬🇧 | 70ms | 0️⃣3️⃣",
             "type": "trojan",
             "server": "18.133.145.225",
             "server_port": 22222,
@@ -252,28 +250,7 @@
             }
         },
         {
-            "tag": "GB🇬🇧 | 106ms | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "198.244.252.93",
-            "server_port": 443,
-            "password": "de5a47b3e2",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uk1.connecton.surf",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "SE🇸🇪 | 87ms | 0️⃣1️⃣",
+            "tag": "SE🇸🇪 | 100ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "16.171.92.31",
             "server_port": 22222,
