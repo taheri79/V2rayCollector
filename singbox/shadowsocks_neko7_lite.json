@@ -103,11 +103,10 @@
                 "CA🇨🇦 | 217ms | 0️⃣2️⃣",
                 "IE🇮🇪 | 106ms | 0️⃣3️⃣",
                 "GB🇬🇧 | 100ms | 0️⃣1️⃣",
-                "CA🇨🇦 | 214ms | 0️⃣2️⃣",
+                "CA🇨🇦 | 213ms | 0️⃣2️⃣",
                 "JP🇯🇵 | 285ms | 0️⃣3️⃣",
                 "GB🇬🇧 | 103ms | 0️⃣1️⃣",
-                "UA🇺🇦 | 91ms | 0️⃣1️⃣",
-                "US🇺🇸 | 87ms | 0️⃣2️⃣"
+                "UA🇺🇦 | 138ms | 0️⃣1️⃣"
             ]
         },
         {
@@ -118,11 +117,10 @@
                 "CA🇨🇦 | 217ms | 0️⃣2️⃣",
                 "IE🇮🇪 | 106ms | 0️⃣3️⃣",
                 "GB🇬🇧 | 100ms | 0️⃣1️⃣",
-                "CA🇨🇦 | 214ms | 0️⃣2️⃣",
+                "CA🇨🇦 | 213ms | 0️⃣2️⃣",
                 "JP🇯🇵 | 285ms | 0️⃣3️⃣",
                 "GB🇬🇧 | 103ms | 0️⃣1️⃣",
-                "UA🇺🇦 | 91ms | 0️⃣1️⃣",
-                "US🇺🇸 | 87ms | 0️⃣2️⃣"
+                "UA🇺🇦 | 138ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -169,7 +167,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "CA🇨🇦 | 214ms | 0️⃣2️⃣",
+            "tag": "CA🇨🇦 | 213ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "143.244.43.216",
             "server_port": 110,
@@ -199,22 +197,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "UA🇺🇦 | 91ms | 0️⃣1️⃣",
+            "tag": "UA🇺🇦 | 138ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1890.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 51348,
             "method": "chacha20-ietf-poly1305",
             "password": "NeVavl43FD6DgFoim7S6HGks",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "US🇺🇸 | 87ms | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "www.outline.network.ak1891.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 6379,
-            "method": "aes-256-gcm",
-            "password": "zDNVedRFPQexG9v",
             "plugin": "",
             "plugin_opts": ""
         },
