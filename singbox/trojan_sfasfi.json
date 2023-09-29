@@ -105,6 +105,7 @@
                 "SE🇸🇪",
                 "IE🇮🇪",
                 "DE🇩🇪",
+                "FR🇫🇷",
                 "GB🇬🇧"
             ]
         },
@@ -112,12 +113,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "SE🇸🇪 | 78ms | 0️⃣1️⃣",
-                "SE🇸🇪 | 123ms | 0️⃣1️⃣",
-                "SE🇸🇪 | 96ms | 0️⃣1️⃣",
-                "IE🇮🇪 | 110ms | 0️⃣2️⃣",
-                "DE🇩🇪 | 58ms | 0️⃣3️⃣",
-                "GB🇬🇧 | 106ms | 0️⃣1️⃣"
+                "SE🇸🇪 | 121ms | 0️⃣1️⃣",
+                "SE🇸🇪 | 97ms | 0️⃣1️⃣",
+                "SE🇸🇪 | 97ms | 0️⃣1️⃣",
+                "IE🇮🇪 | 111ms | 0️⃣2️⃣",
+                "DE🇩🇪 | 66ms | 0️⃣3️⃣",
+                "FR🇫🇷 | 92ms | 0️⃣2️⃣",
+                "FR🇫🇷 | 100ms | 0️⃣3️⃣",
+                "GB🇬🇧 | 105ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -127,9 +130,9 @@
             "tag": "SE🇸🇪",
             "type": "urltest",
             "outbounds": [
-                "SE🇸🇪 | 78ms | 0️⃣1️⃣",
-                "SE🇸🇪 | 123ms | 0️⃣1️⃣",
-                "SE🇸🇪 | 96ms | 0️⃣1️⃣"
+                "SE🇸🇪 | 121ms | 0️⃣1️⃣",
+                "SE🇸🇪 | 97ms | 0️⃣1️⃣",
+                "SE🇸🇪 | 97ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -139,7 +142,7 @@
             "tag": "IE🇮🇪",
             "type": "urltest",
             "outbounds": [
-                "IE🇮🇪 | 110ms | 0️⃣2️⃣"
+                "IE🇮🇪 | 111ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -149,7 +152,18 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "DE🇩🇪 | 58ms | 0️⃣3️⃣"
+                "DE🇩🇪 | 66ms | 0️⃣3️⃣"
+            ],
+            "url": "http:\/\/www.gstatic.com\/generate_204",
+            "interval": "60s",
+            "tolerance": 0
+        },
+        {
+            "tag": "FR🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "FR🇫🇷 | 92ms | 0️⃣2️⃣",
+                "FR🇫🇷 | 100ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -159,14 +173,14 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "GB🇬🇧 | 106ms | 0️⃣1️⃣"
+                "GB🇬🇧 | 105ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "SE🇸🇪 | 78ms | 0️⃣1️⃣",
+            "tag": "SE🇸🇪 | 121ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "16.170.85.29",
             "server_port": 22222,
@@ -187,7 +201,7 @@
             }
         },
         {
-            "tag": "SE🇸🇪 | 123ms | 0️⃣1️⃣",
+            "tag": "SE🇸🇪 | 97ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "13.51.125.84",
             "server_port": 22222,
@@ -208,7 +222,7 @@
             }
         },
         {
-            "tag": "SE🇸🇪 | 96ms | 0️⃣1️⃣",
+            "tag": "SE🇸🇪 | 97ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "13.53.230.58",
             "server_port": 22222,
@@ -229,7 +243,7 @@
             }
         },
         {
-            "tag": "IE🇮🇪 | 110ms | 0️⃣2️⃣",
+            "tag": "IE🇮🇪 | 111ms | 0️⃣2️⃣",
             "type": "trojan",
             "server": "52.213.63.108",
             "server_port": 22222,
@@ -250,7 +264,7 @@
             }
         },
         {
-            "tag": "DE🇩🇪 | 58ms | 0️⃣3️⃣",
+            "tag": "DE🇩🇪 | 66ms | 0️⃣3️⃣",
             "type": "trojan",
             "server": "54.93.213.167",
             "server_port": 22222,
@@ -271,7 +285,49 @@
             }
         },
         {
-            "tag": "GB🇬🇧 | 106ms | 0️⃣1️⃣",
+            "tag": "FR🇫🇷 | 92ms | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "13.38.183.94",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "FR🇫🇷 | 100ms | 0️⃣3️⃣",
+            "type": "trojan",
+            "server": "35.181.66.254",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "GB🇬🇧 | 105ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "198.244.252.93",
             "server_port": 443,
