@@ -99,63 +99,61 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "US🇺🇸 | 101ms | 0️⃣1️⃣",
-                "VN🇻🇳 | 317ms | 0️⃣2️⃣",
-                "RELAY🚩 | 96ms | 0️⃣1️⃣",
-                "US🇺🇸 | 62ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 125ms | 0️⃣1️⃣",
-                "MU🇲🇺 | 126ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 77ms | 0️⃣1️⃣",
-                "US🇺🇸 | 332ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 125ms | 0️⃣3️⃣",
-                "IR🇮🇷 | 6ms | 0️⃣2️⃣",
-                "RELAY🚩 | 64ms | 0️⃣1️⃣",
+                "RELAY🚩 | 98ms | 0️⃣1️⃣",
+                "VN🇻🇳 | 335ms | 0️⃣2️⃣",
                 "RELAY🚩 | 100ms | 0️⃣1️⃣",
-                "RELAY🚩 | 101ms | 0️⃣2️⃣",
-                "US🇺🇸 | 64ms | 0️⃣1️⃣",
-                "US🇺🇸 | 101ms | 0️⃣1️⃣",
-                "US🇺🇸 | 65ms | 0️⃣2️⃣",
-                "MU🇲🇺 | 115ms | 0️⃣1️⃣",
-                "NL🇳🇱 | 102ms | 0️⃣2️⃣",
-                "NL🇳🇱 | 118ms | 0️⃣3️⃣",
-                "RELAY🚩 | 64ms | 0️⃣1️⃣",
-                "RELAY🚩 | 99ms | 0️⃣1️⃣",
-                "FI🇫🇮 | 119ms | 0️⃣2️⃣"
+                "RELAY🚩 | 61ms | 0️⃣2️⃣",
+                "RELAY🚩 | 99ms | 0️⃣3️⃣",
+                "BY🇧🇾 | 125ms | 0️⃣1️⃣",
+                "MU🇲🇺 | 137ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 87ms | 0️⃣1️⃣",
+                "US🇺🇸 | 321ms | 0️⃣2️⃣",
+                "BY🇧🇾 | 127ms | 0️⃣3️⃣",
+                "IR🇮🇷 | 1ms | 0️⃣2️⃣",
+                "US🇺🇸 | 99ms | 0️⃣1️⃣",
+                "RELAY🚩 | 102ms | 0️⃣1️⃣",
+                "RELAY🚩 | 64ms | 0️⃣2️⃣",
+                "US🇺🇸 | 65ms | 0️⃣1️⃣",
+                "US🇺🇸 | 64ms | 0️⃣2️⃣",
+                "NL🇳🇱 | 129ms | 0️⃣1️⃣",
+                "NL🇳🇱 | 59ms | 0️⃣2️⃣",
+                "US🇺🇸 | 94ms | 0️⃣1️⃣",
+                "RELAY🚩 | 101ms | 0️⃣1️⃣",
+                "FI🇫🇮 | 77ms | 0️⃣2️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "US🇺🇸 | 101ms | 0️⃣1️⃣",
-                "VN🇻🇳 | 317ms | 0️⃣2️⃣",
-                "RELAY🚩 | 96ms | 0️⃣1️⃣",
-                "US🇺🇸 | 62ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 125ms | 0️⃣1️⃣",
-                "MU🇲🇺 | 126ms | 0️⃣1️⃣",
-                "BY🇧🇾 | 77ms | 0️⃣1️⃣",
-                "US🇺🇸 | 332ms | 0️⃣2️⃣",
-                "BY🇧🇾 | 125ms | 0️⃣3️⃣",
-                "IR🇮🇷 | 6ms | 0️⃣2️⃣",
-                "RELAY🚩 | 64ms | 0️⃣1️⃣",
+                "RELAY🚩 | 98ms | 0️⃣1️⃣",
+                "VN🇻🇳 | 335ms | 0️⃣2️⃣",
                 "RELAY🚩 | 100ms | 0️⃣1️⃣",
-                "RELAY🚩 | 101ms | 0️⃣2️⃣",
-                "US🇺🇸 | 64ms | 0️⃣1️⃣",
-                "US🇺🇸 | 101ms | 0️⃣1️⃣",
-                "US🇺🇸 | 65ms | 0️⃣2️⃣",
-                "MU🇲🇺 | 115ms | 0️⃣1️⃣",
-                "NL🇳🇱 | 102ms | 0️⃣2️⃣",
-                "NL🇳🇱 | 118ms | 0️⃣3️⃣",
-                "RELAY🚩 | 64ms | 0️⃣1️⃣",
-                "RELAY🚩 | 99ms | 0️⃣1️⃣",
-                "FI🇫🇮 | 119ms | 0️⃣2️⃣"
+                "RELAY🚩 | 61ms | 0️⃣2️⃣",
+                "RELAY🚩 | 99ms | 0️⃣3️⃣",
+                "BY🇧🇾 | 125ms | 0️⃣1️⃣",
+                "MU🇲🇺 | 137ms | 0️⃣1️⃣",
+                "BY🇧🇾 | 87ms | 0️⃣1️⃣",
+                "US🇺🇸 | 321ms | 0️⃣2️⃣",
+                "BY🇧🇾 | 127ms | 0️⃣3️⃣",
+                "IR🇮🇷 | 1ms | 0️⃣2️⃣",
+                "US🇺🇸 | 99ms | 0️⃣1️⃣",
+                "RELAY🚩 | 102ms | 0️⃣1️⃣",
+                "RELAY🚩 | 64ms | 0️⃣2️⃣",
+                "US🇺🇸 | 65ms | 0️⃣1️⃣",
+                "US🇺🇸 | 64ms | 0️⃣2️⃣",
+                "NL🇳🇱 | 129ms | 0️⃣1️⃣",
+                "NL🇳🇱 | 59ms | 0️⃣2️⃣",
+                "US🇺🇸 | 94ms | 0️⃣1️⃣",
+                "RELAY🚩 | 101ms | 0️⃣1️⃣",
+                "FI🇫🇮 | 77ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "US🇺🇸 | 101ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 98ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "104.18.212.12",
             "server_port": 443,
@@ -191,7 +189,7 @@
             }
         },
         {
-            "tag": "VN🇻🇳 | 317ms | 0️⃣2️⃣",
+            "tag": "VN🇻🇳 | 335ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "103.239.67.11",
             "server_port": 443,
@@ -227,7 +225,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 96ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 100ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "188.114.97.1",
             "server_port": 443,
@@ -263,7 +261,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 62ms | 0️⃣2️⃣",
+            "tag": "RELAY🚩 | 61ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "ophelia.mom",
             "server_port": 443,
@@ -299,6 +297,42 @@
             }
         },
         {
+            "tag": "RELAY🚩 | 99ms | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "api.jquery.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sub.yifenjichang.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/oliv.beauty:443\/linkvws",
+                "headers": {
+                    "Host": "api.jquery.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "BY🇧🇾 | 125ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "91.107.144.82",
@@ -326,7 +360,7 @@
             }
         },
         {
-            "tag": "MU🇲🇺 | 126ms | 0️⃣1️⃣",
+            "tag": "MU🇲🇺 | 137ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "45.199.138.189",
             "server_port": 38387,
@@ -343,7 +377,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 77ms | 0️⃣1️⃣",
+            "tag": "BY🇧🇾 | 87ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "91.107.254.205",
             "server_port": 443,
@@ -370,7 +404,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 332ms | 0️⃣2️⃣",
+            "tag": "US🇺🇸 | 321ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "135.125.134.177",
             "server_port": 443,
@@ -397,7 +431,7 @@
             }
         },
         {
-            "tag": "BY🇧🇾 | 125ms | 0️⃣3️⃣",
+            "tag": "BY🇧🇾 | 127ms | 0️⃣3️⃣",
             "type": "vmess",
             "server": "135.125.134.130",
             "server_port": 443,
@@ -424,7 +458,7 @@
             }
         },
         {
-            "tag": "IR🇮🇷 | 6ms | 0️⃣2️⃣",
+            "tag": "IR🇮🇷 | 1ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "95.216.220.247",
             "server_port": 80,
@@ -441,7 +475,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 64ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 99ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "edeen.makeup",
             "server_port": 443,
@@ -477,7 +511,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 100ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 102ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -503,7 +537,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 101ms | 0️⃣2️⃣",
+            "tag": "RELAY🚩 | 64ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -529,43 +563,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 64ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "ophelia.mom",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ophelia.mom",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "ophelia.mom"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "US🇺🇸 | 101ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 65ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -591,7 +589,7 @@
             }
         },
         {
-            "tag": "US🇺🇸 | 65ms | 0️⃣2️⃣",
+            "tag": "US🇺🇸 | 64ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -617,24 +615,7 @@
             }
         },
         {
-            "tag": "MU🇲🇺 | 115ms | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "45.199.138.206",
-            "server_port": 44094,
-            "uuid": "20b30916-e203-412e-8ec0-900f3acd5128",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "NL🇳🇱 | 102ms | 0️⃣2️⃣",
+            "tag": "NL🇳🇱 | 129ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "154.85.1.204",
             "server_port": 54885,
@@ -651,7 +632,7 @@
             }
         },
         {
-            "tag": "NL🇳🇱 | 118ms | 0️⃣3️⃣",
+            "tag": "NL🇳🇱 | 59ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "154.85.1.244",
             "server_port": 54982,
@@ -668,7 +649,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 64ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸 | 94ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "cf-lt.sharecentre.online",
             "server_port": 80,
@@ -694,7 +675,7 @@
             }
         },
         {
-            "tag": "RELAY🚩 | 99ms | 0️⃣1️⃣",
+            "tag": "RELAY🚩 | 101ms | 0️⃣1️⃣",
             "type": "vmess",
             "server": "fd.shabijichang.com",
             "server_port": 80,
@@ -720,7 +701,7 @@
             }
         },
         {
-            "tag": "FI🇫🇮 | 119ms | 0️⃣2️⃣",
+            "tag": "FI🇫🇮 | 77ms | 0️⃣2️⃣",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
