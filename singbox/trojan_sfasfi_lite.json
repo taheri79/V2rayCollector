@@ -102,29 +102,31 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "DE🇩🇪 | 90ms | 0️⃣1️⃣",
+                "DE🇩🇪 | 91ms | 0️⃣1️⃣",
                 "FR🇫🇷 | 104ms | 0️⃣2️⃣",
                 "GB🇬🇧 | 70ms | 0️⃣3️⃣",
-                "SE🇸🇪 | 100ms | 0️⃣1️⃣",
-                "DE🇩🇪 | 91ms | 0️⃣2️⃣"
+                "SE🇸🇪 | 121ms | 0️⃣1️⃣",
+                "DE🇩🇪 | 91ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 76ms | 0️⃣1️⃣"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "DE🇩🇪 | 90ms | 0️⃣1️⃣",
+                "DE🇩🇪 | 91ms | 0️⃣1️⃣",
                 "FR🇫🇷 | 104ms | 0️⃣2️⃣",
                 "GB🇬🇧 | 70ms | 0️⃣3️⃣",
-                "SE🇸🇪 | 100ms | 0️⃣1️⃣",
-                "DE🇩🇪 | 91ms | 0️⃣2️⃣"
+                "SE🇸🇪 | 121ms | 0️⃣1️⃣",
+                "DE🇩🇪 | 91ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 76ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "DE🇩🇪 | 90ms | 0️⃣1️⃣",
+            "tag": "DE🇩🇪 | 91ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "35.158.24.130",
             "server_port": 22222,
@@ -187,7 +189,7 @@
             }
         },
         {
-            "tag": "SE🇸🇪 | 100ms | 0️⃣1️⃣",
+            "tag": "SE🇸🇪 | 121ms | 0️⃣1️⃣",
             "type": "trojan",
             "server": "16.171.92.31",
             "server_port": 22222,
@@ -221,6 +223,27 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "GB🇬🇧 | 76ms | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "198.244.252.93",
+            "server_port": 443,
+            "password": "de5a47b3e2",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "uk1.connecton.surf",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

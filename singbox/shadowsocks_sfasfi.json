@@ -105,19 +105,23 @@
                 "SG🇸🇬",
                 "CA🇨🇦",
                 "GB🇬🇧",
-                "JP🇯🇵"
+                "JP🇯🇵",
+                "US🇺🇸",
+                "RU🇷🇺"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 283ms | 0️⃣1️⃣",
-                "CA🇨🇦 | 166ms | 0️⃣2️⃣",
-                "CA🇨🇦 | 126ms | 0️⃣2️⃣",
-                "GB🇬🇧 | 120ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 69ms | 0️⃣1️⃣",
-                "JP🇯🇵 | 321ms | 0️⃣3️⃣"
+                "SG🇸🇬 | 276ms | 0️⃣1️⃣",
+                "CA🇨🇦 | 131ms | 0️⃣2️⃣",
+                "CA🇨🇦 | 214ms | 0️⃣2️⃣",
+                "GB🇬🇧 | 138ms | 0️⃣1️⃣",
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣",
+                "JP🇯🇵 | 285ms | 0️⃣3️⃣",
+                "US🇺🇸 | 89ms | 0️⃣1️⃣",
+                "RU🇷🇺 | 133ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -127,7 +131,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "SG🇸🇬 | 283ms | 0️⃣1️⃣"
+                "SG🇸🇬 | 276ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -137,8 +141,8 @@
             "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
-                "CA🇨🇦 | 166ms | 0️⃣2️⃣",
-                "CA🇨🇦 | 126ms | 0️⃣2️⃣"
+                "CA🇨🇦 | 131ms | 0️⃣2️⃣",
+                "CA🇨🇦 | 214ms | 0️⃣2️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -148,8 +152,8 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "GB🇬🇧 | 120ms | 0️⃣1️⃣",
-                "GB🇬🇧 | 69ms | 0️⃣1️⃣"
+                "GB🇬🇧 | 138ms | 0️⃣1️⃣",
+                "GB🇬🇧 | 103ms | 0️⃣1️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
@@ -159,14 +163,34 @@
             "tag": "JP🇯🇵",
             "type": "urltest",
             "outbounds": [
-                "JP🇯🇵 | 321ms | 0️⃣3️⃣"
+                "JP🇯🇵 | 285ms | 0️⃣3️⃣"
             ],
             "url": "http:\/\/www.gstatic.com\/generate_204",
             "interval": "60s",
             "tolerance": 0
         },
         {
-            "tag": "SG🇸🇬 | 283ms | 0️⃣1️⃣",
+            "tag": "US🇺🇸",
+            "type": "urltest",
+            "outbounds": [
+                "US🇺🇸 | 89ms | 0️⃣1️⃣"
+            ],
+            "url": "http:\/\/www.gstatic.com\/generate_204",
+            "interval": "60s",
+            "tolerance": 0
+        },
+        {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "RU🇷🇺 | 133ms | 0️⃣2️⃣"
+            ],
+            "url": "http:\/\/www.gstatic.com\/generate_204",
+            "interval": "60s",
+            "tolerance": 0
+        },
+        {
+            "tag": "SG🇸🇬 | 276ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "54.179.254.66",
             "server_port": 443,
@@ -176,7 +200,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "CA🇨🇦 | 166ms | 0️⃣2️⃣",
+            "tag": "CA🇨🇦 | 131ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "192.18.150.179",
             "server_port": 443,
@@ -186,7 +210,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "CA🇨🇦 | 126ms | 0️⃣2️⃣",
+            "tag": "CA🇨🇦 | 214ms | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "143.244.43.216",
             "server_port": 110,
@@ -196,7 +220,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "GB🇬🇧 | 120ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 138ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.89.8.47",
             "server_port": 443,
@@ -206,7 +230,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "GB🇬🇧 | 69ms | 0️⃣1️⃣",
+            "tag": "GB🇬🇧 | 103ms | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.132.31.29",
             "server_port": 20048,
@@ -216,12 +240,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "JP🇯🇵 | 321ms | 0️⃣3️⃣",
+            "tag": "JP🇯🇵 | 285ms | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "84.17.34.108",
             "server_port": 110,
             "method": "aes-256-cfb",
             "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "US🇺🇸 | 89ms | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "www.outline.network.ak1891.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 6379,
+            "method": "aes-256-gcm",
+            "password": "zDNVedRFPQexG9v",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "RU🇷🇺 | 133ms | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "www.outline.network.ak1893.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ackkokOi",
             "plugin": "",
             "plugin_opts": ""
         },
