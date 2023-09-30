@@ -408,3 +408,14 @@ foreach ($data as $item) {
     // Write the JSON content to a file in the "ranking" directory
     file_put_contents("ranking/{$item["filename"]}", $json_content);
 }
+
+foreach ($mix_data as $key => $config){
+    $url = $config['config'];
+    $job = shell_exec("java -jar ./xray_config_tester/Link2Json.jar -o output.json '$url'");
+    if (strpos($job, 'parsing successfull') !== false){
+        $config['json'] = file_get_contents(__DIR__.DIRECTORY_SEPARATOR.'xray_config_tester'.DIRECTORY_SEPARATOR.'output.json');
+    }else{
+        unset($mix_data[$key]);
+    }
+}
+process_mix_json($mix_data, "configs-new.json");
