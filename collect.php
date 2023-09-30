@@ -87,92 +87,90 @@ foreach ($Types as $key => $type_array) {
     }
 }
 
-$donated_vmess_data = []; // Initialize an empty array for vmess data
-$donated_trojan_data = []; // Initialize an empty array for trojan data
-$donated_vless_data = []; // Initialize an empty array for vless data
-$donated_shadowsocks_data = []; // Initialize an empty array for shadowsocks data
-
-$base_donated_url = "https://yebekhe.000webhostapp.com/donate/donated_servers/";
-
-$processed_subscription = [];
-$usernames = [];
-foreach ($donated_subscription as $url){
-    $max_attempts = 3;
-    $attempts = 0;
-    while ($attempts < $max_attempts) {
-        try {
-            $usernames = json_decode(file_get_contents($url), true);
-            break; // Success, so break out of the loop
-        } catch (Exception $e) {
-            // Handle the error here, e.g. by logging it
-            $attempts++;
-            if ($attempts == $max_attempts) {
-             // Reached max attempts, so throw an exception to indicate failure
-                throw new Exception('Failed to retrieve data after ' . $max_attempts . ' attempts.');
-            }
-        sleep(1); // Wait for 1 second before retrying
-        }
-    }
-    foreach ($usernames as $username){
-        $subscription_data = file_get_contents($base_donated_url . $username);
-        $processed_subscription = /** @scrutinizer ignore-call */ process_subscription($subscription_data, $username);
-        foreach ($processed_subscription as $donated_type => $donated_data){
-            switch ($donated_type){
-                case "vmess" :
-                    $donated_vmess_data = array_merge(
-                        $donated_vmess_data,
-                        $donated_data
-                    );
-                    break;
-                case "vless" :
-                    $donated_vless_data = array_merge(
-                        $donated_vless_data,
-                        $donated_data
-                    );
-                    break;
-                case "ss" :
-                    $donated_shadowsocks_data = array_merge(
-                        $donated_shadowsocks_data,
-                        $donated_data
-                    );
-                    break;
-                case "trojan" :
-                    $donated_trojan_data = array_merge(
-                        $donated_trojan_data,
-                        $donated_data
-                    );
-                    break;
-            }
-        }
-    }
-}
-
-$string_donated_vmess = $donated_vmess_data !== [] ? remove_duplicate_vmess(implode("\n", config_array($donated_vmess_data))) : "";
-$string_donated_vless = $donated_vless_data !== [] ? remove_duplicate_xray(fast_fix(implode("\n", config_array($donated_vless_data))), "vless") : "";
-$string_donated_trojan = $donated_vless_data !== [] ? remove_duplicate_xray(fast_fix(implode("\n", config_array($donated_trojan_data))), "trojan") : "";
-$string_donated_shadowsocks = $donated_vless_data !== [] ? remove_duplicate_ss(fast_fix(implode("\n", config_array($donated_shadowsocks_data)))) : "";
-$string_donated_reality = get_reality($string_donated_vless);
-
-$donated_mix =
-    $string_donated_vmess .
-    "\n" .
-    $string_donated_vless .
-    "\n" .
-    $string_donated_trojan .
-    "\n" .
-    $string_donated_shadowsocks;
-$donated_array = explode("\n", $donated_mix);
-
-foreach ($donated_array as $key => $donated_config){
-    if ($donated_config === ""){
-        unset($donated_array[$key]);
-    }
-}
-
-$donated_mix = implode("\n", $donated_array);
-
-file_put_contents("sub/donated", $donated_mix);
-file_put_contents("sub/donated_base64", base64_encode($donated_mix));
+//$donated_vmess_data = []; // Initialize an empty array for vmess data
+//$donated_trojan_data = []; // Initialize an empty array for trojan data
+//$donated_vless_data = []; // Initialize an empty array for vless data
+//$donated_shadowsocks_data = []; // Initialize an empty array for shadowsocks data
+//$base_donated_url = "https://yebekhe.000webhostapp.com/donate/donated_servers/";
+//$processed_subscription = [];
+//$usernames = [];
+//foreach ($donated_subscription as $url){
+//    $max_attempts = 3;
+//    $attempts = 0;
+//    while ($attempts < $max_attempts) {
+//        try {
+//            $usernames = json_decode(file_get_contents($url), true);
+//            break; // Success, so break out of the loop
+//        } catch (Exception $e) {
+//            // Handle the error here, e.g. by logging it
+//            $attempts++;
+//            if ($attempts == $max_attempts) {
+//             // Reached max attempts, so throw an exception to indicate failure
+//                throw new Exception('Failed to retrieve data after ' . $max_attempts . ' attempts.');
+//            }
+//        sleep(1); // Wait for 1 second before retrying
+//        }
+//    }
+//    foreach ($usernames as $username){
+//        $subscription_data = file_get_contents($base_donated_url . $username);
+//        $processed_subscription = /** @scrutinizer ignore-call */ process_subscription($subscription_data, $username);
+//        foreach ($processed_subscription as $donated_type => $donated_data){
+//            switch ($donated_type){
+//                case "vmess" :
+//                    $donated_vmess_data = array_merge(
+//                        $donated_vmess_data,
+//                        $donated_data
+//                    );
+//                    break;
+//                case "vless" :
+//                    $donated_vless_data = array_merge(
+//                        $donated_vless_data,
+//                        $donated_data
+//                    );
+//                    break;
+//                case "ss" :
+//                    $donated_shadowsocks_data = array_merge(
+//                        $donated_shadowsocks_data,
+//                        $donated_data
+//                    );
+//                    break;
+//                case "trojan" :
+//                    $donated_trojan_data = array_merge(
+//                        $donated_trojan_data,
+//                        $donated_data
+//                    );
+//                    break;
+//            }
+//        }
+//    }
+//}
+//
+//$string_donated_vmess = $donated_vmess_data !== [] ? remove_duplicate_vmess(implode("\n", config_array($donated_vmess_data))) : "";
+//$string_donated_vless = $donated_vless_data !== [] ? remove_duplicate_xray(fast_fix(implode("\n", config_array($donated_vless_data))), "vless") : "";
+//$string_donated_trojan = $donated_vless_data !== [] ? remove_duplicate_xray(fast_fix(implode("\n", config_array($donated_trojan_data))), "trojan") : "";
+//$string_donated_shadowsocks = $donated_vless_data !== [] ? remove_duplicate_ss(fast_fix(implode("\n", config_array($donated_shadowsocks_data)))) : "";
+//$string_donated_reality = get_reality($string_donated_vless);
+//
+//$donated_mix =
+//    $string_donated_vmess .
+//    "\n" .
+//    $string_donated_vless .
+//    "\n" .
+//    $string_donated_trojan .
+//    "\n" .
+//    $string_donated_shadowsocks;
+//$donated_array = explode("\n", $donated_mix);
+//
+//foreach ($donated_array as $key => $donated_config){
+//    if ($donated_config === ""){
+//        unset($donated_array[$key]);
+//    }
+//}
+//
+//$donated_mix = implode("\n", $donated_array);
+//
+//file_put_contents("sub/donated", $donated_mix);
+//file_put_contents("sub/donated_base64", base64_encode($donated_mix));
 
 // Extract the "config" value from each object in $type_data and store it in $type_array
 $vmess_array = config_array($vmess_data);
@@ -260,9 +258,9 @@ $mix =
     "\n" .
     $fixed_string_trojan .
     "\n" .
-    $fixed_string_shadowsocks .
-    "\n" .
-    $donated_mix;
+    $fixed_string_shadowsocks;
+//    "\n" .
+//    $donated_mix;
 
 $mix_data = array_merge(
     $vmess_data,
@@ -302,77 +300,77 @@ foreach ($subscription_types as $subscription_type => $subscription_data) {
 process_mix_json($mix_data, "configs.json");
 process_mix_json($mix_data_deduplicate, "configs_deduplicate.json");
 
-$convertor_url = "https://pxhryl-8080.csb.app/?url=" . $raw_url_base . "/sub/";
-
-$clash_types = [
-    "mix" => [
-        "clash" => file_get_contents($convertor_url . "mix&type=clash&process=full"),
-        "meta" => file_get_contents($convertor_url . "mix&type=meta&process=full"),
-        "surfboard" => file_get_contents($convertor_url . "mix&type=surfboard&process=full&protocol=mix"),
-    ],
-    "vmess" => [
-        "clash" => file_get_contents($convertor_url . "vmess&type=clash&process=full"),
-        "meta" => file_get_contents($convertor_url . "vmess&type=meta&process=full"),
-        "surfboard" => file_get_contents($convertor_url . "vmess&type=surfboard&process=full&protocol=vmess" ),
-    ],
-    "vless" => [
-        "meta" => file_get_contents($convertor_url . "vless&type=meta&process=full"),
-    ],
-    "reality" => [
-        "meta" => file_get_contents($convertor_url . "reality&type=meta&process=full"),
-    ],
-    "trojan" => [
-        "clash" => file_get_contents($convertor_url . "trojan&type=clash&process=full"),
-        "meta" => file_get_contents($convertor_url . "trojan&type=meta&process=full"),
-        "surfboard" => file_get_contents($convertor_url . "trojan&type=surfboard&process=full&protocol=trojan"),
-    ],
-    "shadowsocks" => [
-        "clash" => file_get_contents($convertor_url . "shadowsocks&type=clash&process=full"),
-        "meta" => file_get_contents($convertor_url . "shadowsocks&type=meta&process=full"),
-        "surfboard" => file_get_contents($convertor_url . "shadowsocks&type=surfboard&process=full&protocol=shadowsocks"),
-    ],
-    "donated" => [
-        "meta" => file_get_contents($convertor_url . "donated&type=meta&process=full"),
-    ],
-];
-
-// Write Clash configuration data to files
-foreach ($clash_types as $clash_type => $clash_datas) {
-    foreach ($clash_datas as $which => $clash_data) {
-        if ($which !== "surfboard") {
-            file_put_contents($which . "/" . $clash_type . ".yml", $clash_data);
-        } else {
-            file_put_contents($which . "/" . $clash_type, $clash_data);
-        }
-    }
-}
-
-$singboxTypes = [
-    "mix" => $mix,
-    "vmess" => $fixed_string_vmess,
-    "vless" => $fixed_string_vless,
-    "trojan" => $fixed_string_trojan,
-    "shadowsocks" => $fixed_string_shadowsocks,
-];
-
-foreach ($singboxTypes as $singboxType => $subContents) {
-    file_put_contents("singbox/" . $singboxType . "_neko8.json", GenerateConfig($subContents, "nnew"));
-    file_put_contents("singbox/" . $singboxType . "_neko7.json", GenerateConfig($subContents, "nold"));
-    file_put_contents("singbox/" . $singboxType . "_sfasfi.json", GenerateConfig($subContents, "sfia"));
-    file_put_contents("singbox/" . $singboxType . "_neko8_lite.json", GenerateConfigLite($subContents, "nnew"));
-    file_put_contents("singbox/" . $singboxType . "_neko7_lite.json", GenerateConfigLite($subContents, "nold"));
-    file_put_contents("singbox/" . $singboxType . "_sfasfi_lite.json", GenerateConfigLite($subContents, "sfia"));
-}
-
-$the_string_reality_singbox = $fixed_string_reality . "\n" . $string_donated_reality ;
-$string_reality_singbox = remove_duplicate_xray($the_string_reality_singbox, "vless");
-
-file_put_contents("singbox/reality.json", GenerateConfig($string_reality_singbox, "nold"));
-file_put_contents("singbox/nekobox_new.json", GenerateConfig($string_reality_singbox, "nnew"));
-file_put_contents("singbox/sfi_sfa.json", GenerateConfig($string_reality_singbox,"sfia"));
-file_put_contents("singbox/reality_lite.json", GenerateConfigLite($string_reality_singbox, "nold"));
-file_put_contents("singbox/nekobox_new_lite.json", GenerateConfigLite($string_reality_singbox, "nnew"));
-file_put_contents("singbox/sfi_sfa_lite.json", GenerateConfigLite($string_reality_singbox,"sfia"));
+//$convertor_url = "https://pxhryl-8080.csb.app/?url=" . $raw_url_base . "/sub/";
+//
+//$clash_types = [
+//    "mix" => [
+//        "clash" => file_get_contents($convertor_url . "mix&type=clash&process=full"),
+//        "meta" => file_get_contents($convertor_url . "mix&type=meta&process=full"),
+//        "surfboard" => file_get_contents($convertor_url . "mix&type=surfboard&process=full&protocol=mix"),
+//    ],
+//    "vmess" => [
+//        "clash" => file_get_contents($convertor_url . "vmess&type=clash&process=full"),
+//        "meta" => file_get_contents($convertor_url . "vmess&type=meta&process=full"),
+//        "surfboard" => file_get_contents($convertor_url . "vmess&type=surfboard&process=full&protocol=vmess" ),
+//    ],
+//    "vless" => [
+//        "meta" => file_get_contents($convertor_url . "vless&type=meta&process=full"),
+//    ],
+//    "reality" => [
+//        "meta" => file_get_contents($convertor_url . "reality&type=meta&process=full"),
+//    ],
+//    "trojan" => [
+//        "clash" => file_get_contents($convertor_url . "trojan&type=clash&process=full"),
+//        "meta" => file_get_contents($convertor_url . "trojan&type=meta&process=full"),
+//        "surfboard" => file_get_contents($convertor_url . "trojan&type=surfboard&process=full&protocol=trojan"),
+//    ],
+//    "shadowsocks" => [
+//        "clash" => file_get_contents($convertor_url . "shadowsocks&type=clash&process=full"),
+//        "meta" => file_get_contents($convertor_url . "shadowsocks&type=meta&process=full"),
+//        "surfboard" => file_get_contents($convertor_url . "shadowsocks&type=surfboard&process=full&protocol=shadowsocks"),
+//    ],
+//    "donated" => [
+//        "meta" => file_get_contents($convertor_url . "donated&type=meta&process=full"),
+//    ],
+//];
+//
+//// Write Clash configuration data to files
+//foreach ($clash_types as $clash_type => $clash_datas) {
+//    foreach ($clash_datas as $which => $clash_data) {
+//        if ($which !== "surfboard") {
+//            file_put_contents($which . "/" . $clash_type . ".yml", $clash_data);
+//        } else {
+//            file_put_contents($which . "/" . $clash_type, $clash_data);
+//        }
+//    }
+//}
+//
+//$singboxTypes = [
+//    "mix" => $mix,
+//    "vmess" => $fixed_string_vmess,
+//    "vless" => $fixed_string_vless,
+//    "trojan" => $fixed_string_trojan,
+//    "shadowsocks" => $fixed_string_shadowsocks,
+//];
+//
+//foreach ($singboxTypes as $singboxType => $subContents) {
+//    file_put_contents("singbox/" . $singboxType . "_neko8.json", GenerateConfig($subContents, "nnew"));
+//    file_put_contents("singbox/" . $singboxType . "_neko7.json", GenerateConfig($subContents, "nold"));
+//    file_put_contents("singbox/" . $singboxType . "_sfasfi.json", GenerateConfig($subContents, "sfia"));
+//    file_put_contents("singbox/" . $singboxType . "_neko8_lite.json", GenerateConfigLite($subContents, "nnew"));
+//    file_put_contents("singbox/" . $singboxType . "_neko7_lite.json", GenerateConfigLite($subContents, "nold"));
+//    file_put_contents("singbox/" . $singboxType . "_sfasfi_lite.json", GenerateConfigLite($subContents, "sfia"));
+//}
+//
+//$the_string_reality_singbox = $fixed_string_reality . "\n" . $string_donated_reality ;
+//$string_reality_singbox = remove_duplicate_xray($the_string_reality_singbox, "vless");
+//
+//file_put_contents("singbox/reality.json", GenerateConfig($string_reality_singbox, "nold"));
+//file_put_contents("singbox/nekobox_new.json", GenerateConfig($string_reality_singbox, "nnew"));
+//file_put_contents("singbox/sfi_sfa.json", GenerateConfig($string_reality_singbox,"sfia"));
+//file_put_contents("singbox/reality_lite.json", GenerateConfigLite($string_reality_singbox, "nold"));
+//file_put_contents("singbox/nekobox_new_lite.json", GenerateConfigLite($string_reality_singbox, "nnew"));
+//file_put_contents("singbox/sfi_sfa_lite.json", GenerateConfigLite($string_reality_singbox,"sfia"));
 
 $data = [
     [
@@ -413,6 +411,7 @@ foreach ($mix_data as $key => $config){
     $url = $config['config'];
     var_dump($url);
     $job = shell_exec("java -jar ./xray_config_tester/Link2Json.jar -o output.json '$url'");
+    var_dump($job);
     if (strpos($job, 'parsing successfull') !== false){
         $config['json'] = file_get_contents(__DIR__.DIRECTORY_SEPARATOR.'xray_config_tester'.DIRECTORY_SEPARATOR.'output.json');
     }else{
