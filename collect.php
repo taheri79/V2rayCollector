@@ -21,16 +21,18 @@ function process_mix_json($input, $name)
     file_put_contents("json/" . $name, $mix_data_json); // Save the JSON data to a file in the "json/" directory with the specified name
 }
 
-function fast_fix($input){
+function fast_fix($input)
+{
     $input = urldecode($input);
     $input = str_replace("amp;", "", $input);
     return $input;
 }
 
-function config_array($input){
+function config_array($input)
+{
     return array_map(function ($object) {
-    return $object["config"];
-}, $input);
+        return $object["config"];
+    }, $input);
 }
 
 $raw_url_base =
@@ -52,7 +54,7 @@ foreach ($Types as $key => $type_array) {
                 // Merge the results of `get_config` function with $vmess_data array
                 $vmess_data = array_merge(
                     $vmess_data,
-                    /** @scrutinizer ignore-call */ 
+                    /** @scrutinizer ignore-call */
                     get_config($key, $current_type)
                 );
                 break;
@@ -407,15 +409,15 @@ foreach ($data as $item) {
     file_put_contents("ranking/{$item["filename"]}", $json_content);
 }
 
-foreach ($mix_data as $key => $config){
+$new_mix_data = [];
+foreach ($mix_data as $key => $config) {
     $url = $config['config'];
     var_dump($url);
     $job = shell_exec("cd xray_config_tester && java -jar Link2Json.jar -o output.json '$url'");
     var_dump($job);
-    if (strpos($job, 'parsing successfull') !== false){
-        $config['json'] = file_get_contents(__DIR__.DIRECTORY_SEPARATOR.'xray_config_tester'.DIRECTORY_SEPARATOR.'output.json');
-    }else{
-        unset($mix_data[$key]);
+    if (strpos($job, 'parsing successfull') !== false) {
+        $config['json'] = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'xray_config_tester' . DIRECTORY_SEPARATOR . 'output.json');
+        $new_mix_data[] = $config;
     }
 }
-process_mix_json($mix_data, "configs-new.json");
+process_mix_json($new_mix_data, "configs-new.json");
