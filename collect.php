@@ -410,7 +410,7 @@ foreach ($data as $item) {
 foreach ($mix_data as $key => $config){
     $url = $config['config'];
     var_dump($url);
-    $job = shell_exec("java -jar ./xray_config_tester/Link2Json.jar -o output.json '$url'");
+    $job = shell_exec("cd xray_config_tester && java -jar Link2Json.jar -o output.json '$url'");
     var_dump($job);
     if (strpos($job, 'parsing successfull') !== false){
         $config['json'] = file_get_contents(__DIR__.DIRECTORY_SEPARATOR.'xray_config_tester'.DIRECTORY_SEPARATOR.'output.json');
