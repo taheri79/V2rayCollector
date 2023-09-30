@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vpncustomize.cam",
-            "port": 443,
+            "address": "45.32.175.75",
+            "port": 20029,
             "users": [
               {
-                "id": "3a189725-1700-40ca-8dfa-aa63983666dd",
+                "id": "fa452e30-bceb-44c0-958b-55b84963e424",
                 "security": "auto",
                 "level": 8,
                 "encryption": "none",
@@ -66,20 +66,12 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "allowInsecure": true,
-          "serverName": "www.iranserver.com",
-          "fingerprint": "firefox",
-          "show": false,
-          "publicKey": "55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I",
-          "shortId": "6b0541cd",
-          "spiderX": "/"
-        },
-        "grpcSettings": {
-          "serviceName": "@VPNCUSTOMIZE",
-          "multiMode": false
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
         }
       },
       "mux": {
