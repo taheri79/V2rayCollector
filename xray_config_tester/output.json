@@ -47,32 +47,22 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "45.32.175.75",
-            "port": 20029,
-            "users": [
-              {
-                "id": "fa452e30-bceb-44c0-958b-55b84963e424",
-                "security": "auto",
-                "level": 8,
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
+            "address": "www.outline.network.ak1893.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "ackkokOi",
+            "port": 51348,
+            "level": 8
           }
         ]
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        }
+        "security": ""
       },
       "mux": {
         "enabled": false,
