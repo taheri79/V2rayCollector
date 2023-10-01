@@ -97,6 +97,9 @@ $Types = [
     "WebShecan" => ["vless"],
     "v2Line" => ["vmess"],
     "vmessiran" => ["vmess", "vless"],
+    "forwardv2ray" => ["vmess", "vless", "trojan", "ss"],
+    "liq_VPN" => ["vless"],
+    "Watashi_VPN" => ["vmess", "vless", "trojan", "ss"],
 ];
 
 $donated_subscription = [
