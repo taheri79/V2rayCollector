@@ -22,10 +22,11 @@
       "tag": "socks",
       "port": 10808,
       "protocol": "socks",
+      "listen": "127.0.0.1",
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "userLevel": 8
+        "allowTransparent": false
       },
       "sniffing": {
         "enabled": true,
@@ -39,8 +40,18 @@
       "tag": "http",
       "port": 10809,
       "protocol": "http",
+      "listen": "127.0.0.1",
       "settings": {
-        "userLevel": 8
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
       }
     }
   ],
