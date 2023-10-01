@@ -17,31 +17,45 @@
         "statsOutboundDownlink": true
       }
   },
-  "inbounds": [{
-    "tag": "socks",
-    "port": 40808,
-    "protocol": "socks",
-    "settings": {
-      "auth": "noauth",
-      "udp": true,
-      "userLevel": 8
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
     },
-    "sniffing": {
-      "enabled": true,
-      "destOverride": [
-        "http",
-        "tls"
-      ]
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
     }
-  },
-  {
-    "tag": "http",
-    "port": 40809,
-    "protocol": "http",
-    "settings": {
-      "userLevel": 8
-    }
-  }
 ],
   "outbounds": [{
     "tag": "proxy",
