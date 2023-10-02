@@ -6,15 +6,19 @@ include "modules/config.php"; // Include the config module
 include "modules/ranking.php"; // Include the ranking module
 include "modules/singbox.php"; // Include the singbox module
 
-function process_mix_json($input, $name)
+function process_mix_json($input, $name, $pretty = true)
 {
     $mix_data_json = json_encode($input, JSON_PRETTY_PRINT); // Encode input array to JSON with pretty printing
     $mix_data_decode = json_decode($mix_data_json); // Decode the JSON into an object or array
     usort($mix_data_decode, "compare_time"); // Sort the decoded data using the "compare_time" function
-    $mix_data_json = json_encode(
-        $mix_data_decode,
-        JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
-    ); // Re-encode the sorted data to JSON with pretty printing and Unicode characters not escaped
+    if ($pretty){
+        $mix_data_json = json_encode(
+            $mix_data_decode,
+            JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
+        ); // Re-encode the sorted data to JSON with pretty printing and Unicode characters not escaped
+    }else{
+        $mix_data_json = json_encode($mix_data_decode, JSON_UNESCAPED_UNICODE); // Re-encode the sorted data to JSON with Unicode characters not escaped
+    }
     $mix_data_json = urldecode($mix_data_json);
     $mix_data_json = str_replace("amp;", "", $mix_data_json); // Replace HTML-encoded ampersands with regular ampersands
     $mix_data_json = str_replace("\\", "", $mix_data_json); // Remove backslashes from the JSON string
@@ -417,7 +421,10 @@ foreach ($mix_data as $key => $config) {
 //    var_dump($job);
     if (strpos($job, 'parsing successfull') !== false) {
         $config['json'] = json_decode(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'xray_config_tester' . DIRECTORY_SEPARATOR . 'output.json'));
+        unset($config['channel']);
+        unset($config['config']);
+        unset($config['ping']);
         $new_mix_data[] = $config;
     }
 }
-process_mix_json($new_mix_data, "configs-new.json");
+process_mix_json($new_mix_data, "configs-new.json",false);
