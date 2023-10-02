@@ -345,7 +345,8 @@ function get_config($channel, $type)
                     $ip = get_ip($the_config, $type, $is_reality);
                     $port = get_port($the_config, $type);
 
-                    @$ping_data = ping($ip, $port);
+                    $final_config = build_config($the_config, $type);
+                    @$ping_data = ping($ip, $port,$final_config);
                     if ($ping_data !== "unavailable") {
                         $flag = get_flag($ip);
                         
@@ -357,8 +358,6 @@ function get_config($channel, $type)
                             $is_reality,
                             $config_number
                         );
-                        
-                        $final_config = build_config($the_config, $type);
 
                         $final_data[$key]["channel"]["username"] = $channel;
                         $final_data[$key]["channel"]["title"] =
@@ -427,7 +426,8 @@ function process_subscription($input, $channel)
             $ip = get_ip($the_config, $type, $is_reality);
             $port = get_port($the_config, $type);
 
-            @$ping_data = ping($ip, $port);
+            $final_config = build_config($the_config, $type);
+            @$ping_data = ping($ip, $port,$final_config);
             if ($ping_data !== "unavailable") {
                 $flag = get_flag($ip);
 
@@ -439,7 +439,6 @@ function process_subscription($input, $channel)
                     $is_reality,
                     $config_number
                 );
-                $final_config = build_config($the_config, $type);
 
                 $key = ${"array_helper_$type"};
 
