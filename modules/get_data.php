@@ -358,6 +358,7 @@ function get_config($channel, $type)
                             $is_reality,
                             $config_number
                         );
+                        $final_config = build_config($the_config, $type);
 
                         $final_data[$key]["channel"]["username"] = $channel;
                         $final_data[$key]["channel"]["title"] =
@@ -439,7 +440,7 @@ function process_subscription($input, $channel)
                     $is_reality,
                     $config_number
                 );
-
+                $final_config = build_config($the_config, $type);
                 $key = ${"array_helper_$type"};
 
                 $final_data[$type][$key]["channel"]["username"] = $channel;
