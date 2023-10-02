@@ -417,8 +417,8 @@ $new_mix_data = [];
 foreach ($mix_data as $key => $config) {
     $url = $config['config'];
 
-    $test = shell_exec("cd xray_config_tester && python xray_config_tester.py '$url'");
-    if (strpos($test, 'True') !== false) {
+//    $test = shell_exec("cd xray_config_tester && python xray_config_tester.py '$url'");
+//    if (strpos($test, 'True') !== false) {
         $job = shell_exec("cd xray_config_tester && java -jar Link2Json.jar -o output.json '$url'");
         if (strpos($job, 'parsing successfull') !== false) {
             $config['json'] = json_decode(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'xray_config_tester' . DIRECTORY_SEPARATOR . 'output.json'));
@@ -427,6 +427,6 @@ foreach ($mix_data as $key => $config) {
             unset($config['ping']);
             $new_mix_data[] = $config;
         }
-    }
+//    }
 }
 process_mix_json($new_mix_data, "configs-new.json",false);
