@@ -6,7 +6,7 @@ import time
 import requests   # --> pip install requests , pip install pysocks
 import os
 import base64
-
+import sys
 
 # v1.4
 
@@ -112,8 +112,8 @@ def do_test(http_port="10809" , config_filename="config.json" , config_link=""):
         ):        
         pass
     else:
-        print("invalid argument in calling do_test()")
-        return (False, -1, -1) 
+#         print("invalid argument in calling do_test()")
+        return False
 
 
     try:
@@ -140,14 +140,14 @@ def do_test(http_port="10809" , config_filename="config.json" , config_link=""):
         
         process_java.kill()
     except Exception as e:
-        print("failed to start Link2json "+str(e))
+        return False
 
     proxies=None
     process_xray = None
     try:
         process_xray, proxies = start_xray_service(config_filename, xray_path, timeout)
     except Exception as e:
-        print("Could not start xray service "+str(e))
+        return False
 
     count = 0
     Ave_speed = 0
@@ -168,13 +168,13 @@ def do_test(http_port="10809" , config_filename="config.json" , config_link=""):
     if(count > 0):
         Ave_speed = round(Ave_speed/count,2)
         Ave_latency = round(Ave_latency/count,2)
-        print(f"successful    DL_speed={Ave_speed} Mbps    Latency={Ave_latency} sec --> alias={config_alias} , hash={config_hash} , file={config_filename}") 
+#         print(f"successful    DL_speed={Ave_speed} Mbps    Latency={Ave_latency} sec --> alias={config_alias} , hash={config_hash} , file={config_filename}")
         is_test_ok = True
-        return (is_test_ok, Ave_speed , Ave_latency , config_alias , config_hash )
+        return is_test_ok
     else:
-        print(f"test failed --> alias={config_alias} , hash={config_hash} , file={config_filename}")
+#         print(f"test failed --> alias={config_alias} , hash={config_hash} , file={config_filename}")
         is_test_ok = False
-        return (is_test_ok, -1, -1 , config_alias , config_hash)
+        return is_test_ok
     
     
         
@@ -187,16 +187,13 @@ def check_working_directory():
     if(current_dir != actual_file_dir):
         os.chdir(actual_file_dir)
 
-
+def testfu():
+    return (1,2,3)
 
 
 if __name__ == '__main__':
-    check_working_directory()    
-
-    do_test(config_link="vless://fa0e6e80-7ede-4c01-b9aa-aa2f43e0afe8@web.yahoo.com:2087?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sni.yahoo.com&fp=firefox&pbk=sCCsXQbQP5Dcw8Ab3Yv-G5wdLZIT0qYCJdU3hSk-mQk&sid=385efdba&type=grpc#")
-    do_test(config_link="vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInRlc3QxIiwNCiAgImFkZCI6ICJ3ZWIuZ29vZ2xlLmNvbSIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICI2MjBjNjAzMS03MDE4LTQ4ODAtOGI3Ny0wOGY4NDY5ZDlmNmQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJnb29nbGUuY29tIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogInNuaS5nb29nbGUuY29tIiwNCiAgImFscG4iOiAiaDIiLA0KICAiZnAiOiAiYW5kcm9pZCINCn0=")
-    do_test("4500","ali.json","vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInRlc3QxIiwNCiAgImFkZCI6ICJ3ZWIuZ29vZ2xlLmNvbSIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICI2MjBjNjAzMS03MDE4LTQ4ODAtOGI3Ny0wOGY4NDY5ZDlmNmQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJnb29nbGUuY29tIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogInNuaS5nb29nbGUuY29tIiwNCiAgImFscG4iOiAiaDIiLA0KICAiZnAiOiAiYW5kcm9pZCINCn0=")
-    do_test("27000","ali2.json","vless://fa0e6e80-7ede-4c01-b9aa-aa2f43e0afe8@web.yahoo.com:2087?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sni.yahoo.com&fp=firefox&pbk=sCCsXQbQP5Dcw8Ab3Yv-G5wdLZIT0qYCJdU3hSk-mQk&sid=385efdba&type=grpc#test2")    
-
-
+    check_working_directory()
+    config = sys.argv[1]
+#     config = "vless://cd3cbc1f-ef12-4087-e7c5-a6579726efa7@dre.plus-agency.sbs:14599?encryption=none&security=none&type=tcp&headerType=none#Main-1bkk2muh"
+    print(do_test(config_link=config))
     

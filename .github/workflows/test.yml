@@ -1,0 +1,36 @@
+name: "Test python"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+
+      - name: Install Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Execute python
+        run: |
+          cd xray_config_tester
+          pip install requests
+          pip install pysocks
+          chmod 777 Link2Json.jar
+          chmod 777 xray-linux-amd64-1.8.3
+          python xray_config_tester.py "vless://cd3cbc1f-ef12-4087-e7c5-a6579726efa7@dre.plus-agency.sbs:14599?encryption=none&security=none&type=tcp&headerType=none#Main-1bkk2muh"
