@@ -19,7 +19,7 @@ foreach ($Types as $channel => $data_array) {
     // Build the channel data array
     $channel_array[$channel]['types'] = $data_array;
     $channel_array[$channel]['title'] = $title_match[1];
-    $channel_array[$channel]['logo'] = "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/modules/channels/" . $channel . ".jpg";
+    $channel_array[$channel]['logo'] = "https://raw.githubusercontent.com/taheri79/V2rayCollector/main/modules/channels/" . $channel . ".jpg";
 }
 
 // Save the channel data array as JSON
