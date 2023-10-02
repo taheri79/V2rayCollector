@@ -22,6 +22,18 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+        run: |
+          cd xray_config_tester
+          pip install requests
+          pip install pysocks
+          chmod 777 Link2Json.jar
+          chmod 777 xray-linux-amd64-1.8.3
+          cd ..
+
       - name: Execute PHP script
         run: |
           php collect.php
