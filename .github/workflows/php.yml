@@ -36,17 +36,17 @@ jobs:
           chmod 777 xray-linux-amd64-1.8.3
           cd ..
 
-      - name: Execute PHP script
-        run: |
-          php collect.php
-          git config --global user.email "hosein.laletaheri@gmail.com"
-          git config --global user.name "taheri79"
-          git config credential.helper store
-          git config pull.rebase false
-          git add -A
-          git commit -m "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
-          git pull
-          git push
+#      - name: Execute PHP script
+#        run: |
+#          php collect.php
+#          git config --global user.email "hosein.laletaheri@gmail.com"
+#          git config --global user.name "taheri79"
+#          git config credential.helper store
+#          git config pull.rebase false
+#          git add -A
+#          git commit -m "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+#          git pull
+#          git push
 
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
