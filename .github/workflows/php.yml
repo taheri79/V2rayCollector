@@ -38,7 +38,7 @@ jobs:
 
       - name: Execute PHP script
         run: |
-          php collect.php
+#          php collect.php
 #          git config --global user.email "hosein.laletaheri@gmail.com"
 #          git config --global user.name "taheri79"
 #          git config credential.helper store
@@ -57,9 +57,11 @@ jobs:
           target-directory: 'json'
           destination-github-username: 'taheri79'
           destination-repository-name: 'FreeRay'
-          user-email: hosein.laletaheri@gmail.com
+          user-email: 'actions@github.com'
+          user-name: 'actions-user'
           target-branch: main
 #          commit-message: "🚀 Servers Updated - ".$(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')
+
 
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
@@ -70,6 +72,7 @@ jobs:
           target-directory: 'sub'
           destination-github-username: 'taheri79'
           destination-repository-name: 'FreeRay'
-          user-email: hosein.laletaheri@gmail.com
+          user-email: 'actions@github.com'
+          user-name: 'actions-user'
           target-branch: main
 #          commit-message: "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
