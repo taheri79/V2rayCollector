@@ -59,6 +59,7 @@ jobs:
           destination-repository-name: 'testRepo'
           user-email: hosein.laletaheri@gmail.com
           target-branch: main
+          create-target-branch-if-needed: true
 
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
