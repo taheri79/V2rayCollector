@@ -47,3 +47,27 @@ jobs:
           git commit -m "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
           git pull
           git push
+
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'json'
+          target-directory: 'json'
+          destination-github-username: 'taheri79'
+          destination-repository-name: 'testRepo'
+          user-email: hosein.laletaheri@gmail.com
+          target-branch: main
+
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'sub'
+          target-directory: 'sub'
+          destination-github-username: 'taheri79'
+          destination-repository-name: 'testRepo'
+          user-email: hosein.laletaheri@gmail.com
+          target-branch: main
