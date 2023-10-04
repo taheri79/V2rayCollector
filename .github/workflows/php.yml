@@ -59,6 +59,8 @@ jobs:
           destination-repository-name: 'FreeRay'
           user-email: hosein.laletaheri@gmail.com
           target-branch: main
+          commit-message: "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
@@ -70,3 +72,4 @@ jobs:
           destination-repository-name: 'FreeRay'
           user-email: hosein.laletaheri@gmail.com
           target-branch: main
+          commit-message: "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
