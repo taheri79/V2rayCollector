@@ -130,12 +130,6 @@ try {
 }
 
 foreach ($TypesV2 as $channel => $types){
-    $newTypes = [];
-    foreach ($types as $type){
-        if ($type == 'vless' or $type == 'trojan' or $type == 'vmess' or $type == 'ss'){
-            $newTypes[] = $type;
-        }
-    }
     $exist = false;
     foreach ($Types as $channel2 => $types2){
         if ($channel2 == $channel){
@@ -144,7 +138,7 @@ foreach ($TypesV2 as $channel => $types){
         }
     }
     if (!$exist){
-        $Types[$channel] = $newTypes;
+        $Types[$channel] = $types;
     }
 }
 
