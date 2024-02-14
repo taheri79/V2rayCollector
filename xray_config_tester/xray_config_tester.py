@@ -13,8 +13,8 @@ import sys
 # xray_path = "xray-windows-1.8.3.exe"
 xray_path = "./xray-linux-amd64-1.8.3"
 
-n_try = 1
-timeout= 3 #sec
+n_try = 2
+timeout= 10 #sec
 
 
 default_config_alias = "Mahsa Network"
@@ -194,6 +194,6 @@ def testfu():
 if __name__ == '__main__':
     check_working_directory()
     config = sys.argv[1]
-#     config = "vless://cd3cbc1f-ef12-4087-e7c5-a6579726efa7@dre.plus-agency.sbs:14599?encryption=none&security=none&type=tcp&headerType=none#Main-1bkk2muh"
+
     print(do_test(config_link=config))
     
