@@ -17,9 +17,14 @@ function ip_info($ip)
         $randomKey = array_rand($ip_address_array);
         $ip = $ip_address_array[$randomKey]["ip"];
     }
-    $ipinfo = json_decode(
-        file_get_contents("https://api.country.is/" . $ip),
-        true
-    );
+    try {
+        $ipinfo = json_decode(
+            file_get_contents("https://api.country.is/" . $ip),
+            true
+        );
+    }catch (\Exception $exception){
+        $ipinfo = [];
+    }
+
     return $ipinfo;
 }
