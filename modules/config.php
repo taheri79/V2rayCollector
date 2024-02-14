@@ -120,7 +120,33 @@ $Types = [
     "flyv2ray" => ["vless"],
     "serveriran11" => ["vless"],
     "forwardv2ray" => ["vmess", "vless", "trojan", "ss"],
+    "Confing_Mofti" => ["vmess", "vless", "trojan", "ss"],
 ];
+
+try {
+    $TypesV2 = json_decode(file_get_contents("https://api.yebekhe.link/tvc-channels/channels.json"), true);
+}catch (\Exception $exception){
+    $TypesV2 = [];
+}
+
+foreach ($TypesV2 as $channel => $types){
+    $newTypes = [];
+    foreach ($types as $type){
+        if ($type == 'vless' or $type == 'trojan' or $type == 'vmess' or $type == 'ss'){
+            $newTypes[] = $type;
+        }
+    }
+    $exist = false;
+    foreach ($Types as $channel2 => $types2){
+        if ($channel2 == $channel){
+            $exist = true;
+            break;
+        }
+    }
+    if (!$exist){
+        $Types[$channel] = $newTypes;
+    }
+}
 
 $donated_subscription = [
     "https://yebekhe.000webhostapp.com/donate/donated_servers/donated_server.json"

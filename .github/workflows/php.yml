@@ -76,3 +76,17 @@ jobs:
           user-name: 'actions-user'
           target-branch: main
 #          commit-message: "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'ranking'
+          target-directory: 'ranking'
+          destination-github-username: 'taheri79'
+          destination-repository-name: 'FreeRay'
+          user-email: 'actions@github.com'
+          user-name: 'actions-user'
+          target-branch: main
+#          commit-message: "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
