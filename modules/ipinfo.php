@@ -26,7 +26,9 @@ function ip_info($ip) {
     ];
 
     // Initialize an empty result object
-    $result = new stdClass();
+    $result = (object) [
+        'country' => "XX"
+    ];
 
     // Loop through each endpoint
     foreach ($endpoints as $endpoint) {
@@ -38,26 +40,26 @@ function ip_info($ip) {
                 "header"=>"User-Agent: Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.102011-10-16 20:23:10\r\n" // i.e. An iPad
             )
         );
-
+        
         $context = stream_context_create($options);
         $response = file_get_contents($url, false, $context);
-
+    
         if ($response !== false) {
             $data = json_decode($response);
 
             // Extract relevant information and update the result object
             if ($endpoint == $endpoints[0]) {
                 // Data from ipapi.co
-                $result->country = $data->country_code ?? null;
+                $result->country = $data->country_code ?? "XX";
             } elseif ($endpoint == $endpoints[1]) {
                 // Data from ipwhois.app
-                $result->country = $data->country_code ?? null;
+                $result->country = $data->country_code ?? "XX";
             } elseif ($endpoint == $endpoints[2]) {
                 // Data from geoplugin.net
-                $result->country = $data->geoplugin_countryCode ?? null;
+                $result->country = $data->geoplugin_countryCode ?? "XX";
             } elseif ($endpoint == $endpoints[3]) {
                 // Data from ipbase.com
-                $result->country = $data->country_code ?? null;
+                $result->country = $data->country_code ?? "XX";
             }
             // Break out of the loop since we found a successful endpoint
             break;
