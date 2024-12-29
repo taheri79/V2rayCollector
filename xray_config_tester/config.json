@@ -58,19 +58,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.3",
-            "port": 443,
+            "address": "185.146.173.39",
+            "port": 8880,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
-                "alterId": 0,
+                "id": "Parsashonam-136",
                 "security": "auto",
                 "level": 8,
-                "encryption": "",
+                "encryption": "none",
                 "flow": ""
               }
             ]
@@ -78,20 +77,8 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "path": "linkvws",
-          "headers": {
-            "Host": "odelia.autos"
-          }
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "odelia.autos",
-          "fingerprint": "",
-          "show": false
-        }
+        "network": "httpupgrade",
+        "security": "none"
       },
       "mux": {
         "enabled": false,

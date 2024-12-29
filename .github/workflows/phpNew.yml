@@ -1,0 +1,34 @@
+name: "CONFIG COLLECTOR New"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/20 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+      - name: Execute PHP script
+        run: |
+          php newCollect.php
+
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'sub'
+          target-directory: 'sub'
+          destination-github-username: 'taheri79'
+          destination-repository-name: 'FreeRay'
+          user-email: 'actions@github.com'
+          user-name: 'actions-user'
+          target-branch: main
+#          commit-message: "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"

@@ -415,9 +415,10 @@ function get_config($channel, $type)
                                 : $type;
                             $final_data[$key]["config"] = $final_config;
                             $final_data[$key]["ping"] = $ping_data;
-                            $final_data[$key]["time"] = convert_to_iran_time(
-                                $matches[1][$key]
-                            );
+//                            $final_data[$key]["time"] = convert_to_iran_time(
+//                                $matches[1][$key]
+//                            );
+                            $final_data[$key]["time"] = tehran_time();
                             $config_number++;
                         }
                     }

@@ -1,9 +1,7 @@
 <?php
-date_default_timezone_set("Asia/Tehran");
+include "modules/get_data.php"; // Include the get_data module
 
-//$Types = json_decode(file_get_contents("https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/modules/channels.json"), true);
-
-$Types = [
+$channels = [
 //    "Helix_Servers" => ["vless"],
 //    "INIT1984" => ["vless"],
     "Parsashonam" => ["vless"],
@@ -125,6 +123,90 @@ $Types = [
     "Confing_Mofti" => ["vmess", "vless", "trojan", "ss"],
 ];
 
-$donated_subscription = [
-    "https://yebekhe.000webhostapp.com/donate/donated_servers/donated_server.json"
-];
+$vmess_data = [];
+$trojan_data = [];
+$vless_data = [];
+$shadowsocks_data = [];
+
+foreach ($channels as $channelUsername => $type_array) {
+    $count = count($type_array);
+    for ($type_count = $count - 1; $type_count >= 0; $type_count--) {
+        $current_type = $type_array[$type_count];
+        if ($current_type === "vmess") {
+            $vmess_data = array_merge(
+                $vmess_data,
+                get_configNew($channelUsername, $current_type)
+            );
+        }
+        if ($current_type === "vless") {
+            $vless_data = array_merge(
+                $vless_data,
+                get_configNew($channelUsername, $current_type)
+            );
+        }
+        if ($current_type === "trojan") {
+            $trojan_data = array_merge(
+                $trojan_data,
+                get_configNew($channelUsername, $current_type)
+            );
+        }
+        if ($current_type === "ss") {
+            $shadowsocks_data = array_merge(
+                $shadowsocks_data,
+                get_configNew($channelUsername, $current_type)
+            );
+        }
+    }
+}
+$all_data = $vmess_data;
+$all_data = array_merge(
+    $all_data,
+    $vless_data
+);
+$all_data = array_merge(
+    $all_data,
+    $trojan_data
+);
+$all_data = array_merge(
+    $all_data,
+    $shadowsocks_data
+);
+
+$imploaded = implode("\n",$all_data);
+file_put_contents('./sub/mix',$imploaded);
+function get_configNew($channel, $type)
+{
+    // Fetch the content of the Telegram channel URL
+    $get = file_get_contents("https://t.me/s/" . $channel);
+
+    $configs = get_config_itemsNew($type, $get);
+
+    $finalConfigs = [];
+    foreach ($configs[1] as $config) {
+        $config = trim(removeStringsAfterHash(htmlspecialchars_decode(urldecode($config))));
+        $the_config = parse_config($config, $type);
+
+
+        $config = "$type://" . $config;
+
+        $f = filtered_or_not($the_config['hostname']);
+        if (!$f){
+            $finalConfigs[] = $config;
+        }
+    }
+    return $finalConfigs;
+}
+
+function get_config_itemsNew($type, $input)
+{
+    preg_match_all("#>" . $type . "://(.*?)<#", $input, $items);
+    return $items;
+}
+
+function removeStringsAfterHash($inputString){
+    // Use regex to remove # and everything after it
+    $result = preg_replace('/#.*$/', '', $inputString);
+
+    // Return the result after trimming any remaining spaces
+    return trim($result);
+}

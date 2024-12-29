@@ -7,6 +7,8 @@ import requests   # --> pip install requests , pip install pysocks
 import os
 import base64
 import sys
+import base64
+
 
 # v1.4
 
@@ -190,10 +192,16 @@ def check_working_directory():
 def testfu():
     return (1,2,3)
 
+def decode_base64(encoded_string):
+    # Decode the Base64-encoded string
+    decoded_bytes = base64.b64decode(encoded_string)
+    # Convert the bytes to a string
+    decoded_string = decoded_bytes.decode('utf-8')
+    return decoded_string
 
 if __name__ == '__main__':
     check_working_directory()
-    config = sys.argv[1]
+    config = decode_base64(sys.argv[1])
 
     print(do_test(config_link=config))
     

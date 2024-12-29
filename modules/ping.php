@@ -9,7 +9,11 @@ function ping($ip, $port,$config)
     $militime = round(($ft - $it) * 1e3, 2);
     if ($check) {
         fclose($check);
+        return $militime;
+        // todo
+        echo 'start test'.PHP_EOL;
         $test = shell_exec("cd xray_config_tester && python xray_config_tester.py '$config'");
+        echo 'end test'.PHP_EOL;
         if (strpos($test, 'True') !== false) {
             return $militime;
         }else{
@@ -29,7 +33,7 @@ function check_the_host($host)
     }
 
     $url = "https://check-host.net/check-ping";
-    $nodes = ["ir3.node.check-host.net", "ir4.node.check-host.net", "ir1.node.check-host.net"];
+    $nodes = ["ir5.node.check-host.net","ir6.node.check-host.net", "ir3.node.check-host.net", "ir1.node.check-host.net"];
     $params = http_build_query([
         'host' => $host,
         'node' => $nodes,
@@ -48,8 +52,8 @@ function check_the_host($host)
         echo "cURL error: " . curl_error($ch);
         return null;
     }
-
     $request_id = json_decode($response, true)["request_id"];
+
     curl_close($ch);
 
     return $request_id;
@@ -80,7 +84,7 @@ function check_the_ping($request_id)
     $decoded_response = json_decode($response, true);
 
     $pings = [];
-    $nodes = ["ir1.node.check-host.net", "ir3.node.check-host.net", "ir4.node.check-host.net"];
+    $nodes = ["ir5.node.check-host.net", "ir6.node.check-host.net", "ir3.node.check-host.net", "ir1.node.check-host.net"];
 
     foreach ($nodes as $node) {
         if (empty($decoded_response[$node])) {
